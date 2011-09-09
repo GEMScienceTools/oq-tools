@@ -1,0 +1,9 @@
+#	cpt file created by: makecpt -C./cpt_hazardMap_gem.cpt -T./dat/valuesForCpt.txt -D255/255/255
+#COLOR_MODEL = RGB
+#
+1	97	122	236	2	97	122	236
+2	105	235	225	3	105	235	225
+3	255	189	86	4	255	189	86
+B	97	122	236
+F	255	189	86
+N	0	0	0
