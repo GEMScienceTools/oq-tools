@@ -346,6 +346,8 @@ def serialize_data_to_shapefile(source_data,file_name):
 	if len(w_point.shapes()) > 0:
 		w_point.save(file_name)
 
+	print 'Shapefile saved to: %s.shp' % file_name
+
 def main(argv):
 	"""
 	Parse command line argument and performs requested action.
