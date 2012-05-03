@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 """
-Reads hazard map in NRML format and converts it to shapefile.
+Convert loss map in NRML format to shapefile.
 Supports NRML format 0.3.
 Required libraries are:
 - lxml
@@ -18,22 +18,22 @@ xmlNRML = '{http://openquake.org/xmlns/nrml/0.3}'
 xmlGML = '{http://www.opengis.net/gml}'
 
 w = shapefile.Writer(shapefile.POINT)
-w.field('VALUE','N',10,5)
+w.field('VALUE','N',20,5)
 
 def set_up_arg_parser():
 	"""
 	Set up command line parser.
 	"""
-	parser = argparse.ArgumentParser(description='Convert NRML format hazard map file to shapefile.'\
-					'To run just type: python hazardMapNRML2Shapefile.py --hazard-map-file=/PATH/HAZARD_MAP_FILE_NAME.xml')
-	parser.add_argument('--hazard-map-file',help='path to NRML hazard map file',default=None)
+	parser = argparse.ArgumentParser(description='Convert NRML format loss map file to shapefile.'\
+					'To run just type: python lossMapNRML2Shapefile.py --loss-map-file=/PATH/LOSS_MAP_FILE_NAME.xml')
+	parser.add_argument('--loss-map-file',help='path to NRML loss map file',default=None)
 	return parser
 
-def parse_hazard_map_file(hazard_map_file):
+def parse_loss_map_file(loss_map_file):
 	"""
-	Parse NRML hazard map file. 
+	Parse NRML loss map file.
 	"""
-	parse_args = dict(source=hazard_map_file)
+	parse_args = dict(source=loss_map_file)
 
 	lons = []
 	lats = []
@@ -41,26 +41,30 @@ def parse_hazard_map_file(hazard_map_file):
 
 	for _, element in etree.iterparse(**parse_args):
 
-		if element.tag == '%sHMNode' % xmlNRML:
-			lon,lat,value = parse_hazard_map_node(element)
+		if element.tag == '%sLMNode' % xmlNRML:
+			lon,lat,value = parse_loss_map_node(element)
 			lons.append(lon)
 			lats.append(lat)
 			data.append(value)
 	
 	return lons,lats,data
 
-def parse_hazard_map_node(element):
+def parse_loss_map_node(element):
 	"""
-	Parse Hazard Map Node element.
+	Parse loss map node. Return longitude
+	and latitude, and total loss (sum of
+	losses from the different assets)
 	"""
+	total_value = 0.0
 	for e in element.iter():
 		if e.tag == '%spos' % xmlGML:
 			coords = str(e.text).split()
 			lon = float(coords[0])
 			lat = float(coords[1])
-		if e.tag == '%sIML' % xmlNRML:
+		if e.tag == '%svalue' % xmlNRML:
 			value = float(e.text)
-	return lon,lat,value
+			total_value += value
+	return lon,lat,total_value
 
 def serialize_data_to_shapefile(lons,lats,data,file_name):
 	"""
@@ -71,7 +75,7 @@ def serialize_data_to_shapefile(lons,lats,data,file_name):
 		w.record(round(data[i],5))
 	w.save(file_name)
 
-	print 'Shapefile saved to: %s.shp' % file_name
+	print 'Shapefile saved to: %s.shp' % file_name	
 
 def main(argv):
 	"""
@@ -80,9 +84,9 @@ def main(argv):
 	parser = set_up_arg_parser()
 	args = parser.parse_args()
 
-	if args.hazard_map_file:
-		lons,lats,data = parse_hazard_map_file(args.hazard_map_file)
-		serialize_data_to_shapefile(lons,lats,data,args.hazard_map_file.split('.')[0])
+	if args.loss_map_file:
+		lons,lats,data = parse_loss_map_file(args.loss_map_file)
+		serialize_data_to_shapefile(lons,lats,data,args.loss_map_file.split('.')[0])
 	else:
 		parser.print_help()
 
