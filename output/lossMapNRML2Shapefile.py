@@ -64,6 +64,9 @@ def parse_loss_map_node(element):
 		if e.tag == '%svalue' % xmlNRML:
 			value = float(e.text)
 			total_value += value
+		if e.tag == '%smean' % xmlNRML:
+			value = float(e.text)
+			total_value += value
 	return lon,lat,total_value
 
 def serialize_data_to_shapefile(lons,lats,data,file_name):
