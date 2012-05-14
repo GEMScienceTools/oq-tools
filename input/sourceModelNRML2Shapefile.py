@@ -203,7 +203,7 @@ def get_polygon_area_from_simple_fault_data(posList,upper_seismo_depth,lower_sei
 	fault_top_edge = numpy.array(fault_top_edge,dtype=float).reshape(len(fault_top_edge)/3,3)
 	fault_top_edge = Line([Point(v1,v2,v3) for v1,v2,v3 in fault_top_edge])
 
-	az = fault_top_edge[0].azimuth(fault_top_edge[1]) + 180.0
+	az = (fault_top_edge[0].azimuth(fault_top_edge[1]) + 270.0) % 360
 	vertical_increment = - fault_top_edge[0].depth
 	horizontal_increment = fault_top_edge[0].depth / numpy.tan(math.radians(dip))
 
