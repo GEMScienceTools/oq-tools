@@ -46,7 +46,9 @@ def set_up_arg_parser():
 					' the following information: ID, NAME, MAXIMUM MAGNITUDE, TOTAL OCCURRENCE RATE'\
 					' (per year and per unit area). NOTE: for point sources the total occurrence rate'\
 					' is given per year, but not per unit area, because rates are concentrated on a single point.'\
-					'To run just type: python sourceModelNRML2Shapefile.py --source-model-file=/PATH/SOURCE_MODEL_FILE_NAME.xml')
+					'To run just type: python sourceModelNRML2Shapefile.py --source-model-file=/PATH/SOURCE_MODEL_FILE_NAME.xml'
+					'If the source model contains both polygon shaped sources (area and/or simple fault and/or complex fault)'\
+					'and point sources, two shapefile are created (one for polygons and one for points).')
 	parser.add_argument('--source-model-file',help='path to NRML source model file',default=None)
 	return parser
 
@@ -341,12 +343,18 @@ def serialize_data_to_shapefile(source_data,file_name):
 			w_point.point(data['POINT'][0],data['POINT'][1],0.0,0.0)
 			w_point.record(data['ID'],data['NAME'],data['MAX_MAG'],data['TOT_OCC_RATE'])
 	
-	if len(w_poly.shapes()) > 0:
+	if len(w_poly.shapes()) > 0 and len(w_point.shapes()) > 0:
+		w_poly.save(file_name+'_polygon')
+		w_point.save(file_name+'_point')
+		print 'Shapefile saved to: %s_polygon/_point.shp' % file_name
+	elif len(w_poly.shapes()) > 0:
 		w_poly.save(file_name)
-	if len(w_point.shapes()) > 0:
+		print 'Shapefile saved to: %s.shp' % file_name
+	elif len(w_point.shapes()) > 0:
 		w_point.save(file_name)
+		print 'Shapefile saved to: %s.shp' % file_name
 
-	print 'Shapefile saved to: %s.shp' % file_name
+
 
 def main(argv):
 	"""
