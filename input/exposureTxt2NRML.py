@@ -253,7 +253,7 @@ def cmd_parser():
         metavar='output file',
         dest='output_file',
         default='exposure_portfolio.xml',
-        help='Specify the output file (i.e. exposure_portfolio.xml')
+        help='Specify the output file (i.e. exposure_portfolio.xml)')
 
     parser.add_argument('-v', '--version',
         action='version',
