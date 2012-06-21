@@ -252,6 +252,7 @@ def cmd_parser():
         nargs=1,
         metavar='output file',
         dest='output_file',
+        default='exposure_portfolio.xml',
         help='Specify the output file (i.e. exposure_portfolio.xml')
 
     parser.add_argument('-v', '--version',
@@ -272,7 +273,7 @@ def main():
             metadata = reader.metadata
             assets = reader.readassets()
         writer = ExposureWriter()
-        writer.serialize(args.output_file[0], metadata, assets)
+        writer.serialize(args.output_file, metadata, assets)
 
 if __name__ == '__main__':
     main()
