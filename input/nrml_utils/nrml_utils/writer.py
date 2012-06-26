@@ -217,6 +217,9 @@ class ExposureWriter(object):
 
 class VulnerabilityWriter(object):
 
+    def _value_defined_for(self, dict, attrib):
+        return dict[attrib] != NO_VALUE
+
     def serialize(self, filename, metadata, vuln_definitions):
         root_elem = self._write_header(metadata)
         root_elem = self._write_vuln_def(root_elem, vuln_definitions)
@@ -234,9 +237,25 @@ class VulnerabilityWriter(object):
             vuln_mod_elem, CONFIG)
         vuln_set = etree.SubElement(
             vuln_mod_elem, DISC_VULN_SET)
-        vuln_set.attrib[VULN_SET_ID] = metadata['vulnerabilitySetID']
-        vuln_set.attrib[ASSET_CATEGORY] = metadata['assetCategory']
-        vuln_set.attrib[LOSS_CAT] = metadata['lossCategory']
+
+        if self._value_defined_for(metadata, 'vulnerabilitySetID'):
+            vuln_set.attrib[VULN_SET_ID] = metadata['vulnerabilitySetID']
+        else:
+            raise RuntimeError('vulnerabilitySetID is a required attribute, '
+                               'a fix to the input file is necessary')
+
+        if self._value_defined_for(metadata, 'assetCategory'):
+            vuln_set.attrib[ASSET_CATEGORY] = metadata['assetCategory']
+        else:
+            raise RuntimeError('assetCategory is a required attribute, '
+                               'a fix to the input file is necessary')
+
+        if self._value_defined_for(metadata, 'lossCategory'):
+            vuln_set.attrib[LOSS_CAT] = metadata['lossCategory']
+        else:
+            raise RuntimeError('lossCategory is a required attribute, '
+                               'a fix to the input file is necessary')
+
         iml_elem = etree.SubElement(
             vuln_set, IML)
         iml_elem.attrib[IMT] = metadata['IMT']
@@ -248,10 +267,23 @@ class VulnerabilityWriter(object):
         for vuln_def in vuln_definitions:
             vuln_def_elem = etree.SubElement(
                 disc_vuln_set, DISC_VULN)
-            vuln_def_elem.attrib[VULN_FUN_ID] = (
-                        vuln_def['vulnerabilityFunctionId'])
-            vuln_def_elem.attrib[PROB_DISTR] = (
-                        vuln_def['probabilityDistribution'])
+
+            if self._value_defined_for(vuln_def, 'vulnerabilityFunctionId'):
+                vuln_def_elem.attrib[VULN_FUN_ID] = (
+                            vuln_def['vulnerabilityFunctionId'])
+            else:
+                raise RuntimeError('vulnerabilityFunctionID is a required '
+                                   'attribute, a fix to the input file is '
+                                   'necessary')
+
+            if self._value_defined_for(vuln_def, 'probabilityDistribution'):
+                vuln_def_elem.attrib[PROB_DISTR] = (
+                            vuln_def['probabilityDistribution'])
+            else:
+                raise RuntimeError('probabilityDistribution is a required '
+                                   'attribute, a fix to the input file is '
+                                   'necessary')
+
             loss_ratio_elem = etree.SubElement(
                 vuln_def_elem, LOSS_RATIO)
             loss_ratio_elem.text = ' '.join(vuln_def['lossRatio'])
