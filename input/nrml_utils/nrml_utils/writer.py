@@ -58,6 +58,24 @@ RECO = '%sreco' % NRML
 STCO = '%sstco' % NRML
 TAXONOMY = '%staxonomy' % NRML
 
+# Vulnerability tagnames
+
+VULNERABILITY_MOD = '%svulnerabilityModel' % NRML
+DISC_VULN_SET = '%sdiscreteVulnerabilitySet' % NRML
+IML = '%sIML' % NRML
+DISC_VULN = '%sdiscreteVulnerability' % NRML
+LOSS_RATIO = '%slossRatio' % NRML
+COEFF_VAR = '%scoefficientsVariation' % NRML
+
+# Vulnerability attributes
+
+VULN_SET_ID = 'vulnerabilitySetID'
+ASSET_CAT = 'assetCategory'
+LOSS_CAT = 'lossCategory'
+IMT = 'IMT'
+VULN_FUN_ID = 'vulnerabilityFunctionID'
+PROB_DISTR = 'probabilisticDistribution'
+
 NO_VALUE = ''
 
 
@@ -193,5 +211,52 @@ class ExposureWriter(object):
             else:
                 raise RuntimeError('taxonomy is a compulsory value for '
                                    'an asset')
+
+        return root_elem
+
+
+class VulnerabilityWriter(object):
+
+    def serialize(self, filename, metadata, vuln_definitions):
+        root_elem = self._write_header(metadata)
+        root_elem = self._write_vuln_def(root_elem, vuln_definitions)
+        tree = etree.ElementTree(root_elem)
+        with open(filename, 'w') as output_file:
+            tree.write(output_file, xml_declaration=True,
+                encoding='utf-8', pretty_print=True)
+
+    def _write_header(self, metadata):
+        root_elem = etree.Element(ROOT, nsmap=NSMAP)
+        root_elem.attrib[GML_ID] = 'n1'
+        vuln_mod_elem = etree.SubElement(
+            root_elem, VULNERABILITY_MOD)
+        config = etree.SubElement(
+            vuln_mod_elem, CONFIG)
+        vuln_set = etree.SubElement(
+            vuln_mod_elem, DISC_VULN_SET)
+        vuln_set.attrib[VULN_SET_ID] = metadata['vulnerabilitySetID']
+        vuln_set.attrib[ASSET_CATEGORY] = metadata['assetCategory']
+        vuln_set.attrib[LOSS_CAT] = metadata['lossCategory']
+        iml_elem = etree.SubElement(
+            vuln_set, IML)
+        iml_elem.attrib[IMT] = metadata['IMT']
+        iml_elem.text = ' '.join(metadata['IML'])
+        return root_elem
+
+    def _write_vuln_def(self, root_elem, vuln_definitions):
+        disc_vuln_set = root_elem.find('.//%s' % DISC_VULN_SET)
+        for vuln_def in vuln_definitions:
+            vuln_def_elem = etree.SubElement(
+                disc_vuln_set, DISC_VULN)
+            vuln_def_elem.attrib[VULN_FUN_ID] = (
+                        vuln_def['vulnerabilityFunctionId'])
+            vuln_def_elem.attrib[PROB_DISTR] = (
+                        vuln_def['probabilityDistribution'])
+            loss_ratio_elem = etree.SubElement(
+                vuln_def_elem, LOSS_RATIO)
+            loss_ratio_elem.text = ' '.join(vuln_def['lossRatio'])
+            coeff_var_elem = etree.SubElement(
+                vuln_def_elem, COEFF_VAR)
+            coeff_var_elem.text = ' '.join(vuln_def['coefficientVariation'])
 
         return root_elem
