@@ -84,25 +84,28 @@ def asset_iterator(config, data):
     xmax = config.getfloat("georeference", "xmax") 
     ymax = config.getfloat("georeference", "ymax") 
 
+    no_data = config.getfloat("data", "nodatavalue") 
+
     x_step = math.fabs((xmax - xmin) / ncols)
     y_step = math.fabs((ymax - ymin) / nrows)
 
     assert nrows * ncols == len(data)
 
-    current_x = xmin
-    current_y = ymax
+    current_x = xmin + (x_step / 2)
+    current_y = ymax - (y_step / 2)
 
     for counter, value in enumerate(data, start=1):
         assert xmin <= current_x <= xmax
         assert ymin <= current_y <= ymax
         
-        yield (current_x, current_y, value)
-        
+        yield (current_x, current_y,
+            value if value != no_data else 0)
+
         current_x = current_x + x_step
 
         # we are on the last column.
         if counter % ncols == 0:
-            current_x = xmin
+            current_x = xmin + (x_step / 2)
             current_y = current_y - y_step
 
 
