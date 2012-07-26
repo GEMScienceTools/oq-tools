@@ -1,0 +1,11 @@
+expModId,assetCategory,description,stcoType,stcoUnit,areaType,areaUnit,cocoType,cocoUnit,recoType,recoUnit,taxonomySource
+PAV01,buildings,bla bla bla,aggregated,USD,per_asset,GBP,per_area,CHF,aggregated,EUR,pavia taxonomy
+
+lon,lat,taxonomy,stco,number,area,reco,coco,occupantDay,occupantNight,deductible,limit
+28.6925,40.9775,RC_MR_LC,40000,50,1500,1000,4000,10,10,0.05,32000
+28.6975,40.9825,RC_MR_LC,300000,100,1000,2000,30000,15,15,0.1,240000
+28.7025,41.0525,RC_MR_LC,150000,60,1650,1000,15000,9,9,0.1,120000
+28.7025,40.9975,RC_MR_LC,62000,30,300,3000,6200,18,18,0.15,49600
+28.7025,40.9925,RC_MR_LC,900000,100,1560,1500,90000,13,13,0.05,720000
+28.7025,40.9925,RC_MR_LC,,,,,,,,,
+28.7025,40.9925,RC_MR_LC,,,,,,,,,
