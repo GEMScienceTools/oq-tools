@@ -1,0 +1,1416 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml" xmlns="http://openquake.org/xmlns/nrml/0.2" gml:id="undefined">
+  <riskResult gml:id="undefined">
+    <lossMap gml:id="undefined" endBranchLabel="undefined" lossCategory="undefined" unit="undefined">
+      <LMNode gml:id="lmn_1">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5425793 38.171456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a119">
+          <mean>3185481572.48</mean>
+          <stdDev>2044817203.72</stdDev>
+        </loss>
+        <loss assetRef="a1194">
+          <mean>492291213.128</mean>
+          <stdDev>319951718.757</stdDev>
+        </loss>
+        <loss assetRef="a2269">
+          <mean>3238984840.43</mean>
+          <stdDev>2433036167.75</stdDev>
+        </loss>
+        <loss assetRef="a119">
+          <mean>3145238117.91</mean>
+          <stdDev>1747232834.69</stdDev>
+        </loss>
+        <loss assetRef="a1194">
+          <mean>484981623.969</mean>
+          <stdDev>355140991.527</stdDev>
+        </loss>
+        <loss assetRef="a2269">
+          <mean>3240684478.77</mean>
+          <stdDev>2205290444.11</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_2">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.4925793 38.121456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a233">
+          <mean>8613749.50895</mean>
+          <stdDev>4856793.30704</stdDev>
+        </loss>
+        <loss assetRef="a1308">
+          <mean>1256151.10916</mean>
+          <stdDev>656501.774042</stdDev>
+        </loss>
+        <loss assetRef="a2383">
+          <mean>8234689.06829</mean>
+          <stdDev>4777315.1646</stdDev>
+        </loss>
+        <loss assetRef="a233">
+          <mean>8572128.02904</mean>
+          <stdDev>4766219.93876</stdDev>
+        </loss>
+        <loss assetRef="a1308">
+          <mean>1286723.70926</mean>
+          <stdDev>713306.589086</stdDev>
+        </loss>
+        <loss assetRef="a2383">
+          <mean>8329373.68927</mean>
+          <stdDev>4635524.95145</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_3">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5425793 38.2381227</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a48">
+          <mean>2127284.90847</mean>
+          <stdDev>1343285.83929</stdDev>
+        </loss>
+        <loss assetRef="a1123">
+          <mean>333015.61183</mean>
+          <stdDev>210823.675967</stdDev>
+        </loss>
+        <loss assetRef="a2198">
+          <mean>2154180.90463</mean>
+          <stdDev>1528600.27228</stdDev>
+        </loss>
+        <loss assetRef="a48">
+          <mean>2137581.29374</mean>
+          <stdDev>1369388.53349</stdDev>
+        </loss>
+        <loss assetRef="a1123">
+          <mean>329268.029067</mean>
+          <stdDev>216692.382485</stdDev>
+        </loss>
+        <loss assetRef="a2198">
+          <mean>2217083.07968</mean>
+          <stdDev>1493196.21606</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_4">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.559246 38.2381227</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a49">
+          <mean>136887504.282</mean>
+          <stdDev>86028172.7313</stdDev>
+        </loss>
+        <loss assetRef="a1124">
+          <mean>21526907.6099</mean>
+          <stdDev>15727429.7981</stdDev>
+        </loss>
+        <loss assetRef="a2199">
+          <mean>139126029.019</mean>
+          <stdDev>86328514.6614</stdDev>
+        </loss>
+        <loss assetRef="a49">
+          <mean>135360728.919</mean>
+          <stdDev>81873348.5134</stdDev>
+        </loss>
+        <loss assetRef="a1124">
+          <mean>21031166.291</mean>
+          <stdDev>14643525.7755</stdDev>
+        </loss>
+        <loss assetRef="a2199">
+          <mean>145714669.16</mean>
+          <stdDev>95485106.3336</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_5">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.4925793 38.1881227</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a92">
+          <mean>1935689.17182</mean>
+          <stdDev>810681.636628</stdDev>
+        </loss>
+        <loss assetRef="a1167">
+          <mean>283525.6197</mean>
+          <stdDev>113617.166105</stdDev>
+        </loss>
+        <loss assetRef="a2242">
+          <mean>1815590.73685</mean>
+          <stdDev>810390.487832</stdDev>
+        </loss>
+        <loss assetRef="a92">
+          <mean>1855065.84345</mean>
+          <stdDev>732653.389829</stdDev>
+        </loss>
+        <loss assetRef="a1167">
+          <mean>269716.122204</mean>
+          <stdDev>118894.372792</stdDev>
+        </loss>
+        <loss assetRef="a2242">
+          <mean>1842793.68448</mean>
+          <stdDev>819418.633986</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_6">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.4925793 38.1047893</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a282">
+          <mean>61850714.5796</mean>
+          <stdDev>41706293.7476</stdDev>
+        </loss>
+        <loss assetRef="a1357">
+          <mean>9736656.76612</mean>
+          <stdDev>6723300.66448</stdDev>
+        </loss>
+        <loss assetRef="a2432">
+          <mean>62201294.4378</mean>
+          <stdDev>38850634.9467</stdDev>
+        </loss>
+        <loss assetRef="a282">
+          <mean>64499343.9797</mean>
+          <stdDev>42459219.968</stdDev>
+        </loss>
+        <loss assetRef="a1357">
+          <mean>9472914.9171</mean>
+          <stdDev>5682108.00662</stdDev>
+        </loss>
+        <loss assetRef="a2432">
+          <mean>62396263.677</mean>
+          <stdDev>45553577.8981</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_7">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5425793 38.2047893</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a75">
+          <mean>3276327242.75</mean>
+          <stdDev>1583388803.13</stdDev>
+        </loss>
+        <loss assetRef="a1150">
+          <mean>529837605.431</mean>
+          <stdDev>282934975.301</stdDev>
+        </loss>
+        <loss assetRef="a2225">
+          <mean>3479003357.65</mean>
+          <stdDev>2003630427.88</stdDev>
+        </loss>
+        <loss assetRef="a75">
+          <mean>3276049745.89</mean>
+          <stdDev>1528347512.84</stdDev>
+        </loss>
+        <loss assetRef="a1150">
+          <mean>535580474.772</mean>
+          <stdDev>327715726.785</stdDev>
+        </loss>
+        <loss assetRef="a2225">
+          <mean>3459155289.82</mean>
+          <stdDev>2149622612.1</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_8">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5259127 38.2047893</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a74">
+          <mean>211989328.943</mean>
+          <stdDev>82993163.3082</stdDev>
+        </loss>
+        <loss assetRef="a1149">
+          <mean>33478203.0147</mean>
+          <stdDev>13588638.344</stdDev>
+        </loss>
+        <loss assetRef="a2224">
+          <mean>211254504.788</mean>
+          <stdDev>87516888.484</stdDev>
+        </loss>
+        <loss assetRef="a74">
+          <mean>209230857.117</mean>
+          <stdDev>76392152.8872</stdDev>
+        </loss>
+        <loss assetRef="a1149">
+          <mean>32241506.6163</mean>
+          <stdDev>14829907.7518</stdDev>
+        </loss>
+        <loss assetRef="a2224">
+          <mean>212817001.569</mean>
+          <stdDev>86129057.999</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_9">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5425793 38.271456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a31">
+          <mean>40711631.0321</mean>
+          <stdDev>27139717.7599</stdDev>
+        </loss>
+        <loss assetRef="a1106">
+          <mean>5847159.89566</mean>
+          <stdDev>3726727.82178</stdDev>
+        </loss>
+        <loss assetRef="a2181">
+          <mean>36866546.3089</mean>
+          <stdDev>24181135.889</stdDev>
+        </loss>
+        <loss assetRef="a31">
+          <mean>39878322.729</mean>
+          <stdDev>25818981.2448</stdDev>
+        </loss>
+        <loss assetRef="a1106">
+          <mean>5855000.21026</mean>
+          <stdDev>3733510.31525</stdDev>
+        </loss>
+        <loss assetRef="a2181">
+          <mean>37468810.7411</mean>
+          <stdDev>24295817.1655</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_10">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.509246 38.2547893</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a37">
+          <mean>6223860.24966</mean>
+          <stdDev>3232345.33147</stdDev>
+        </loss>
+        <loss assetRef="a1112">
+          <mean>945733.525969</mean>
+          <stdDev>532510.917849</stdDev>
+        </loss>
+        <loss assetRef="a2187">
+          <mean>6198829.85659</mean>
+          <stdDev>3454011.40014</stdDev>
+        </loss>
+        <loss assetRef="a37">
+          <mean>6513570.13039</mean>
+          <stdDev>2904844.6655</stdDev>
+        </loss>
+        <loss assetRef="a1112">
+          <mean>933895.310713</mean>
+          <stdDev>512549.885033</stdDev>
+        </loss>
+        <loss assetRef="a2187">
+          <mean>6586862.67944</mean>
+          <stdDev>3167173.56923</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_11">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5259127 38.221456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a58">
+          <mean>332814122.42</mean>
+          <stdDev>128559005.711</stdDev>
+        </loss>
+        <loss assetRef="a1133">
+          <mean>52963315.1947</mean>
+          <stdDev>21354570.3976</stdDev>
+        </loss>
+        <loss assetRef="a2208">
+          <mean>352431944.017</mean>
+          <stdDev>155008046.712</stdDev>
+        </loss>
+        <loss assetRef="a58">
+          <mean>334917080.957</mean>
+          <stdDev>117648619.313</stdDev>
+        </loss>
+        <loss assetRef="a1133">
+          <mean>51501849.4032</mean>
+          <stdDev>22440341.2868</stdDev>
+        </loss>
+        <loss assetRef="a2208">
+          <mean>347405724.061</mean>
+          <stdDev>135217433.24</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_12">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.509246 38.171456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a117">
+          <mean>300801315.938</mean>
+          <stdDev>67765743.814</stdDev>
+        </loss>
+        <loss assetRef="a1192">
+          <mean>47578376.06</mean>
+          <stdDev>10724165.651</stdDev>
+        </loss>
+        <loss assetRef="a2267">
+          <mean>303980245.675</mean>
+          <stdDev>74616866.9199</stdDev>
+        </loss>
+        <loss assetRef="a117">
+          <mean>306813302.908</mean>
+          <stdDev>56650431.1438</stdDev>
+        </loss>
+        <loss assetRef="a1192">
+          <mean>47435304.9062</mean>
+          <stdDev>11986551.55</stdDev>
+        </loss>
+        <loss assetRef="a2267">
+          <mean>306983027.408</mean>
+          <stdDev>71987901.908</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_13">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.4925793 38.1381227</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a187">
+          <mean>31374458.7462</mean>
+          <stdDev>18611495.9786</stdDev>
+        </loss>
+        <loss assetRef="a1262">
+          <mean>4626109.33204</mean>
+          <stdDev>2515719.23587</stdDev>
+        </loss>
+        <loss assetRef="a2337">
+          <mean>31039364.6086</mean>
+          <stdDev>16560234.3925</stdDev>
+        </loss>
+        <loss assetRef="a187">
+          <mean>31594930.0589</mean>
+          <stdDev>17272521.1346</stdDev>
+        </loss>
+        <loss assetRef="a1262">
+          <mean>4579557.2679</mean>
+          <stdDev>2654372.28898</stdDev>
+        </loss>
+        <loss assetRef="a2337">
+          <mean>31386180.3388</mean>
+          <stdDev>16933747.8472</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_14">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.509246 38.1381227</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a188">
+          <mean>306785681.772</mean>
+          <stdDev>200091372.143</stdDev>
+        </loss>
+        <loss assetRef="a1263">
+          <mean>51236657.4915</mean>
+          <stdDev>38159880.9273</stdDev>
+        </loss>
+        <loss assetRef="a2338">
+          <mean>328917813.492</mean>
+          <stdDev>232205488.896</stdDev>
+        </loss>
+        <loss assetRef="a188">
+          <mean>310433895.284</mean>
+          <stdDev>214896034.777</stdDev>
+        </loss>
+        <loss assetRef="a1263">
+          <mean>50217797.6971</mean>
+          <stdDev>38917068.5894</stdDev>
+        </loss>
+        <loss assetRef="a2338">
+          <mean>343590103.53</mean>
+          <stdDev>250132885.783</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_15">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5425793 38.1881227</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a95">
+          <mean>2609850574.01</mean>
+          <stdDev>1580001783.24</stdDev>
+        </loss>
+        <loss assetRef="a1170">
+          <mean>390270475.032</mean>
+          <stdDev>295015624.559</stdDev>
+        </loss>
+        <loss assetRef="a2245">
+          <mean>2653481740.84</mean>
+          <stdDev>1848442513.3</stdDev>
+        </loss>
+        <loss assetRef="a95">
+          <mean>2530797653.39</mean>
+          <stdDev>1571966867.89</stdDev>
+        </loss>
+        <loss assetRef="a1170">
+          <mean>402899621.907</mean>
+          <stdDev>325300807.944</stdDev>
+        </loss>
+        <loss assetRef="a2245">
+          <mean>2634158596.16</mean>
+          <stdDev>1730835824.86</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_16">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.559246 38.221456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a60">
+          <mean>1419068728.23</mean>
+          <stdDev>669064915.916</stdDev>
+        </loss>
+        <loss assetRef="a1135">
+          <mean>236222031.958</mean>
+          <stdDev>128697789.253</stdDev>
+        </loss>
+        <loss assetRef="a2210">
+          <mean>1496647341.78</mean>
+          <stdDev>862413852.089</stdDev>
+        </loss>
+        <loss assetRef="a60">
+          <mean>1442211444.24</mean>
+          <stdDev>674408554.689</stdDev>
+        </loss>
+        <loss assetRef="a1135">
+          <mean>235321352.712</mean>
+          <stdDev>136689959.756</stdDev>
+        </loss>
+        <loss assetRef="a2210">
+          <mean>1539277066.68</mean>
+          <stdDev>883658678.983</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_17">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5259127 38.1881227</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a94">
+          <mean>986338529.451</mean>
+          <stdDev>196963988.959</stdDev>
+        </loss>
+        <loss assetRef="a1169">
+          <mean>152572331.09</mean>
+          <stdDev>35131021.3625</stdDev>
+        </loss>
+        <loss assetRef="a2244">
+          <mean>1049458412.98</mean>
+          <stdDev>230954352.352</stdDev>
+        </loss>
+        <loss assetRef="a94">
+          <mean>998630086.919</mean>
+          <stdDev>205824126.075</stdDev>
+        </loss>
+        <loss assetRef="a1169">
+          <mean>153383877.707</mean>
+          <stdDev>32947809.9826</stdDev>
+        </loss>
+        <loss assetRef="a2244">
+          <mean>1005926084.12</mean>
+          <stdDev>239997542.73</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_18">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.509246 38.1547893</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a147">
+          <mean>530626403.841</mean>
+          <stdDev>107347301.795</stdDev>
+        </loss>
+        <loss assetRef="a1222">
+          <mean>81990548.4472</mean>
+          <stdDev>19679131.8419</stdDev>
+        </loss>
+        <loss assetRef="a2297">
+          <mean>536432280.456</mean>
+          <stdDev>140848225.31</stdDev>
+        </loss>
+        <loss assetRef="a147">
+          <mean>528406705.208</mean>
+          <stdDev>120573576.001</stdDev>
+        </loss>
+        <loss assetRef="a1222">
+          <mean>82839818.2386</mean>
+          <stdDev>20988959.6356</stdDev>
+        </loss>
+        <loss assetRef="a2297">
+          <mean>547303492.23</mean>
+          <stdDev>127346210.558</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_19">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.4925793 38.2047893</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a72">
+          <mean>623687.1961</mean>
+          <stdDev>526446.964552</stdDev>
+        </loss>
+        <loss assetRef="a1147">
+          <mean>92712.3420379</mean>
+          <stdDev>77920.737589</stdDev>
+        </loss>
+        <loss assetRef="a2222">
+          <mean>635817.107367</mean>
+          <stdDev>482713.301001</stdDev>
+        </loss>
+        <loss assetRef="a72">
+          <mean>612742.636092</mean>
+          <stdDev>471959.122363</stdDev>
+        </loss>
+        <loss assetRef="a1147">
+          <mean>93580.6995318</mean>
+          <stdDev>72743.401401</stdDev>
+        </loss>
+        <loss assetRef="a2222">
+          <mean>600379.271477</mean>
+          <stdDev>470929.538429</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_20">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5259127 38.2547893</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a38">
+          <mean>165428048.109</mean>
+          <stdDev>79428459.3816</stdDev>
+        </loss>
+        <loss assetRef="a1113">
+          <mean>24705908.1935</mean>
+          <stdDev>12654384.2041</stdDev>
+        </loss>
+        <loss assetRef="a2188">
+          <mean>166550057.976</mean>
+          <stdDev>93705096.3221</stdDev>
+        </loss>
+        <loss assetRef="a38">
+          <mean>164201399.974</mean>
+          <stdDev>82297196.2186</stdDev>
+        </loss>
+        <loss assetRef="a1113">
+          <mean>24595146.9053</mean>
+          <stdDev>13549823.2079</stdDev>
+        </loss>
+        <loss assetRef="a2188">
+          <mean>165790550.888</mean>
+          <stdDev>83005768.7005</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_21">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.509246 38.2381227</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a46">
+          <mean>16696916.7411</mean>
+          <stdDev>7731373.10638</stdDev>
+        </loss>
+        <loss assetRef="a1121">
+          <mean>2527202.82006</mean>
+          <stdDev>1355155.02516</stdDev>
+        </loss>
+        <loss assetRef="a2196">
+          <mean>16878294.7594</mean>
+          <stdDev>8329716.86639</stdDev>
+        </loss>
+        <loss assetRef="a46">
+          <mean>16633953.2798</mean>
+          <stdDev>8604830.37464</stdDev>
+        </loss>
+        <loss assetRef="a1121">
+          <mean>2499165.0031</mean>
+          <stdDev>1280261.18623</stdDev>
+        </loss>
+        <loss assetRef="a2196">
+          <mean>16335819.6292</mean>
+          <stdDev>8689198.3604</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_22">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.559246 38.271456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a32">
+          <mean>26342645.9464</mean>
+          <stdDev>16781306.811</stdDev>
+        </loss>
+        <loss assetRef="a1107">
+          <mean>3784639.88689</mean>
+          <stdDev>2388015.56714</stdDev>
+        </loss>
+        <loss assetRef="a2182">
+          <mean>25201530.7247</mean>
+          <stdDev>16222603.4602</stdDev>
+        </loss>
+        <loss assetRef="a32">
+          <mean>26145138.4141</mean>
+          <stdDev>17425165.9549</stdDev>
+        </loss>
+        <loss assetRef="a1107">
+          <mean>3863798.04236</mean>
+          <stdDev>2480432.36698</stdDev>
+        </loss>
+        <loss assetRef="a2182">
+          <mean>25662595.6112</mean>
+          <stdDev>15259824.7613</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_23">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5425793 38.2881227</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a26">
+          <mean>8398790.36179</mean>
+          <stdDev>5114329.40335</stdDev>
+        </loss>
+        <loss assetRef="a1101">
+          <mean>1300024.45986</mean>
+          <stdDev>774460.053741</stdDev>
+        </loss>
+        <loss assetRef="a2176">
+          <mean>8339984.26999</mean>
+          <stdDev>5036354.55353</stdDev>
+        </loss>
+        <loss assetRef="a26">
+          <mean>8462007.9761</mean>
+          <stdDev>5527861.15102</stdDev>
+        </loss>
+        <loss assetRef="a1101">
+          <mean>1317099.202</mean>
+          <stdDev>854220.95082</stdDev>
+        </loss>
+        <loss assetRef="a2176">
+          <mean>8401636.20035</mean>
+          <stdDev>5317771.1246</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_24">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5259127 38.2881227</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a25">
+          <mean>14167731.1453</mean>
+          <stdDev>8567597.68901</stdDev>
+        </loss>
+        <loss assetRef="a1100">
+          <mean>2039664.22278</mean>
+          <stdDev>1381947.14728</stdDev>
+        </loss>
+        <loss assetRef="a2175">
+          <mean>13676411.9259</mean>
+          <stdDev>9529494.15977</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_25">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5259127 38.2381227</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a47">
+          <mean>22127903.5203</mean>
+          <stdDev>10294400.0003</stdDev>
+        </loss>
+        <loss assetRef="a1122">
+          <mean>3338942.65831</mean>
+          <stdDev>1890355.77742</stdDev>
+        </loss>
+        <loss assetRef="a2197">
+          <mean>21389529.3199</mean>
+          <stdDev>10738376.7581</stdDev>
+        </loss>
+        <loss assetRef="a47">
+          <mean>21717957.1473</mean>
+          <stdDev>11364330.6451</stdDev>
+        </loss>
+        <loss assetRef="a1122">
+          <mean>3279153.20489</mean>
+          <stdDev>1794752.90241</stdDev>
+        </loss>
+        <loss assetRef="a2197">
+          <mean>21733969.6687</mean>
+          <stdDev>10999275.6603</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_26">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5259127 38.271456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a30">
+          <mean>26120804.6861</mean>
+          <stdDev>16236022.9671</stdDev>
+        </loss>
+        <loss assetRef="a1105">
+          <mean>3665391.36873</mean>
+          <stdDev>2337911.29108</stdDev>
+        </loss>
+        <loss assetRef="a2180">
+          <mean>24318208.432</mean>
+          <stdDev>17420016.0232</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_27">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.559246 38.2881227</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a27">
+          <mean>47020059.7992</mean>
+          <stdDev>31645406.1034</stdDev>
+        </loss>
+        <loss assetRef="a1102">
+          <mean>7058641.33756</mean>
+          <stdDev>3998990.56343</stdDev>
+        </loss>
+        <loss assetRef="a2177">
+          <mean>45778115.2583</mean>
+          <stdDev>28327052.3566</stdDev>
+        </loss>
+        <loss assetRef="a27">
+          <mean>47997054.9504</mean>
+          <stdDev>30857744.4449</stdDev>
+        </loss>
+        <loss assetRef="a1102">
+          <mean>7118720.15493</mean>
+          <stdDev>4496874.51837</stdDev>
+        </loss>
+        <loss assetRef="a2177">
+          <mean>46316249.7128</mean>
+          <stdDev>30163378.1967</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_28">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.4925793 38.0881227</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a331">
+          <mean>55074829.2599</mean>
+          <stdDev>35802229.5966</stdDev>
+        </loss>
+        <loss assetRef="a1406">
+          <mean>8169510.5885</mean>
+          <stdDev>5527478.19017</stdDev>
+        </loss>
+        <loss assetRef="a2481">
+          <mean>53665371.5082</mean>
+          <stdDev>35403756.7781</stdDev>
+        </loss>
+        <loss assetRef="a331">
+          <mean>55820090.1364</mean>
+          <stdDev>33228374.3961</stdDev>
+        </loss>
+        <loss assetRef="a1406">
+          <mean>8020948.82957</mean>
+          <stdDev>5481538.42345</stdDev>
+        </loss>
+        <loss assetRef="a2481">
+          <mean>54708967.0394</mean>
+          <stdDev>36642979.532</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_29">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5425793 38.221456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a59">
+          <mean>283924096.53</mean>
+          <stdDev>136046157.642</stdDev>
+        </loss>
+        <loss assetRef="a1134">
+          <mean>48771178.2266</mean>
+          <stdDev>28917712.4314</stdDev>
+        </loss>
+        <loss assetRef="a2209">
+          <mean>305857870.363</mean>
+          <stdDev>181297344.097</stdDev>
+        </loss>
+        <loss assetRef="a59">
+          <mean>287710137.409</mean>
+          <stdDev>145058951.047</stdDev>
+        </loss>
+        <loss assetRef="a1134">
+          <mean>47833756.4385</mean>
+          <stdDev>26948142.8025</stdDev>
+        </loss>
+        <loss assetRef="a2209">
+          <mean>303683977.336</mean>
+          <stdDev>181144795.113</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_30">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.509246 38.121456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a234">
+          <mean>211123463.775</mean>
+          <stdDev>142510029.769</stdDev>
+        </loss>
+        <loss assetRef="a1309">
+          <mean>33952694.9295</mean>
+          <stdDev>25986807.5105</stdDev>
+        </loss>
+        <loss assetRef="a2384">
+          <mean>226287822.427</mean>
+          <stdDev>167167287.19</stdDev>
+        </loss>
+        <loss assetRef="a234">
+          <mean>210811450.944</mean>
+          <stdDev>139470611.298</stdDev>
+        </loss>
+        <loss assetRef="a1309">
+          <mean>34726899.1231</mean>
+          <stdDev>25539915.344</stdDev>
+        </loss>
+        <loss assetRef="a2384">
+          <mean>224806197.708</mean>
+          <stdDev>177516557.075</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_31">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.559246 38.2547893</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a40">
+          <mean>95778022.5971</mean>
+          <stdDev>56820360.045</stdDev>
+        </loss>
+        <loss assetRef="a1115">
+          <mean>14507945.9766</mean>
+          <stdDev>10889013.7795</stdDev>
+        </loss>
+        <loss assetRef="a2190">
+          <mean>102664372.411</mean>
+          <stdDev>67565784.1595</stdDev>
+        </loss>
+        <loss assetRef="a40">
+          <mean>95968753.1206</mean>
+          <stdDev>55224376.6739</stdDev>
+        </loss>
+        <loss assetRef="a1115">
+          <mean>15203721.5874</mean>
+          <stdDev>10495747.8097</stdDev>
+        </loss>
+        <loss assetRef="a2190">
+          <mean>97738045.701</mean>
+          <stdDev>70579871.1367</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_32">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.4925793 38.221456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a56">
+          <mean>5192915.4679</mean>
+          <stdDev>4205406.89298</stdDev>
+        </loss>
+        <loss assetRef="a1131">
+          <mean>775646.309246</mean>
+          <stdDev>601040.639791</stdDev>
+        </loss>
+        <loss assetRef="a2206">
+          <mean>5086352.83758</mean>
+          <stdDev>3886822.82296</stdDev>
+        </loss>
+        <loss assetRef="a56">
+          <mean>5343918.16214</mean>
+          <stdDev>3780007.99574</stdDev>
+        </loss>
+        <loss assetRef="a1131">
+          <mean>775456.628022</mean>
+          <stdDev>624876.331472</stdDev>
+        </loss>
+        <loss assetRef="a2206">
+          <mean>5124634.27193</mean>
+          <stdDev>3804967.52039</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_33">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.4925793 38.171456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a116">
+          <mean>2053558.1567</mean>
+          <stdDev>837658.460605</stdDev>
+        </loss>
+        <loss assetRef="a1191">
+          <mean>289364.814958</mean>
+          <stdDev>122273.935528</stdDev>
+        </loss>
+        <loss assetRef="a2266">
+          <mean>1917039.72235</mean>
+          <stdDev>802336.002242</stdDev>
+        </loss>
+        <loss assetRef="a116">
+          <mean>1986460.31036</mean>
+          <stdDev>848477.71306</stdDev>
+        </loss>
+        <loss assetRef="a1191">
+          <mean>289558.5957</mean>
+          <stdDev>139455.326946</stdDev>
+        </loss>
+        <loss assetRef="a2266">
+          <mean>1908731.26014</mean>
+          <stdDev>788805.117602</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_34">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.509246 38.221456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a57">
+          <mean>5612838.18925</mean>
+          <stdDev>2146912.79567</stdDev>
+        </loss>
+        <loss assetRef="a1132">
+          <mean>886146.673947</mean>
+          <stdDev>375901.815307</stdDev>
+        </loss>
+        <loss assetRef="a2207">
+          <mean>5933386.56835</mean>
+          <stdDev>2416730.51987</stdDev>
+        </loss>
+        <loss assetRef="a57">
+          <mean>5583296.44268</mean>
+          <stdDev>2102175.21322</stdDev>
+        </loss>
+        <loss assetRef="a1132">
+          <mean>926291.002166</mean>
+          <stdDev>368483.401887</stdDev>
+        </loss>
+        <loss assetRef="a2207">
+          <mean>6001875.68927</mean>
+          <stdDev>2466115.4977</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_35">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5925793 38.271456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a34">
+          <mean>134219777.371</mean>
+          <stdDev>57544269.7678</stdDev>
+        </loss>
+        <loss assetRef="a1109">
+          <mean>19452353.9971</mean>
+          <stdDev>8198763.0026</stdDev>
+        </loss>
+        <loss assetRef="a2184">
+          <mean>131661550.879</mean>
+          <stdDev>52886007.5252</stdDev>
+        </loss>
+        <loss assetRef="a34">
+          <mean>135713133.655</mean>
+          <stdDev>57438693.7575</stdDev>
+        </loss>
+        <loss assetRef="a1109">
+          <mean>19982598.1073</mean>
+          <stdDev>8796935.24319</stdDev>
+        </loss>
+        <loss assetRef="a2184">
+          <mean>134829552.788</mean>
+          <stdDev>55064497.4609</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_36">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.509246 38.271456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a29">
+          <mean>2627618.94219</mean>
+          <stdDev>1831927.84908</stdDev>
+        </loss>
+        <loss assetRef="a1104">
+          <mean>387766.770794</mean>
+          <stdDev>258170.390687</stdDev>
+        </loss>
+        <loss assetRef="a2179">
+          <mean>2506198.85968</mean>
+          <stdDev>1710096.19874</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_37">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.509246 38.1881227</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a93">
+          <mean>53445636.9486</mean>
+          <stdDev>11254158.8614</stdDev>
+        </loss>
+        <loss assetRef="a1168">
+          <mean>8200866.52864</mean>
+          <stdDev>2169555.00416</stdDev>
+        </loss>
+        <loss assetRef="a2243">
+          <mean>54767904.1217</mean>
+          <stdDev>14722241.8159</stdDev>
+        </loss>
+        <loss assetRef="a93">
+          <mean>54530440.4521</mean>
+          <stdDev>11853358.1107</stdDev>
+        </loss>
+        <loss assetRef="a1168">
+          <mean>8328937.83351</mean>
+          <stdDev>1939886.81913</stdDev>
+        </loss>
+        <loss assetRef="a2243">
+          <mean>53838618.2933</mean>
+          <stdDev>14015569.7346</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_38">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.4925793 38.2547893</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a36">
+          <mean>32853263.6566</mean>
+          <stdDev>20393118.382</stdDev>
+        </loss>
+        <loss assetRef="a1111">
+          <mean>4821462.45653</mean>
+          <stdDev>3059788.91604</stdDev>
+        </loss>
+        <loss assetRef="a2186">
+          <mean>34384136.832</mean>
+          <stdDev>20355986.9744</stdDev>
+        </loss>
+        <loss assetRef="a36">
+          <mean>33999855.3807</mean>
+          <stdDev>20243571.8854</stdDev>
+        </loss>
+        <loss assetRef="a1111">
+          <mean>5077192.13672</mean>
+          <stdDev>3155700.38594</stdDev>
+        </loss>
+        <loss assetRef="a2186">
+          <mean>32682882.3222</mean>
+          <stdDev>20319206.4963</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_39">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.4925793 38.1547893</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a146">
+          <mean>4152973.68607</mean>
+          <stdDev>1669268.85807</stdDev>
+        </loss>
+        <loss assetRef="a1221">
+          <mean>590775.520572</mean>
+          <stdDev>254757.852555</stdDev>
+        </loss>
+        <loss assetRef="a2296">
+          <mean>3876060.3725</mean>
+          <stdDev>1673093.93021</stdDev>
+        </loss>
+        <loss assetRef="a146">
+          <mean>4164973.86621</mean>
+          <stdDev>1703896.37898</stdDev>
+        </loss>
+        <loss assetRef="a1221">
+          <mean>580154.177627</mean>
+          <stdDev>259589.867555</stdDev>
+        </loss>
+        <loss assetRef="a2296">
+          <mean>3925653.04482</mean>
+          <stdDev>1640978.21241</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_40">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.4925793 38.2381227</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a45">
+          <mean>27812675.8663</mean>
+          <stdDev>16679430.3451</stdDev>
+        </loss>
+        <loss assetRef="a1120">
+          <mean>4295257.97705</mean>
+          <stdDev>2591643.93536</stdDev>
+        </loss>
+        <loss assetRef="a2195">
+          <mean>27241388.8334</mean>
+          <stdDev>15552743.2506</stdDev>
+        </loss>
+        <loss assetRef="a45">
+          <mean>27965613.483</mean>
+          <stdDev>17612913.9072</stdDev>
+        </loss>
+        <loss assetRef="a1120">
+          <mean>4108287.56551</mean>
+          <stdDev>2595754.28377</stdDev>
+        </loss>
+        <loss assetRef="a2195">
+          <mean>26686628.1104</mean>
+          <stdDev>16854478.1922</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_41">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5259127 38.171456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a118">
+          <mean>2513215067.74</mean>
+          <stdDev>552345199.944</stdDev>
+        </loss>
+        <loss assetRef="a1193">
+          <mean>380333994.687</mean>
+          <stdDev>82904909.2985</stdDev>
+        </loss>
+        <loss assetRef="a2268">
+          <mean>2362215384.27</mean>
+          <stdDev>672571063.284</stdDev>
+        </loss>
+        <loss assetRef="a118">
+          <mean>2494542978.3</mean>
+          <stdDev>594985101.732</stdDev>
+        </loss>
+        <loss assetRef="a1193">
+          <mean>380919155.639</mean>
+          <stdDev>93607566.8381</stdDev>
+        </loss>
+        <loss assetRef="a2268">
+          <mean>2456691387.82</mean>
+          <stdDev>566662123.391</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_42">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5759127 38.271456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a33">
+          <mean>63616772.8855</mean>
+          <stdDev>39685162.5269</stdDev>
+        </loss>
+        <loss assetRef="a1108">
+          <mean>9030603.79513</mean>
+          <stdDev>5982261.6008</stdDev>
+        </loss>
+        <loss assetRef="a2183">
+          <mean>59468683.249</mean>
+          <stdDev>38895215.7242</stdDev>
+        </loss>
+        <loss assetRef="a33">
+          <mean>59786091.3058</mean>
+          <stdDev>39533481.4778</stdDev>
+        </loss>
+        <loss assetRef="a1108">
+          <mean>9296820.30871</mean>
+          <stdDev>6021615.4673</stdDev>
+        </loss>
+        <loss assetRef="a2183">
+          <mean>61942448.6542</mean>
+          <stdDev>34883577.2769</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_43">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5425793 38.2547893</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a39">
+          <mean>24545700.3945</mean>
+          <stdDev>14234888.7873</stdDev>
+        </loss>
+        <loss assetRef="a1114">
+          <mean>3671073.68387</mean>
+          <stdDev>2594469.29045</stdDev>
+        </loss>
+        <loss assetRef="a2189">
+          <mean>24522359.979</mean>
+          <stdDev>16444311.5142</stdDev>
+        </loss>
+        <loss assetRef="a39">
+          <mean>23991513.3428</mean>
+          <stdDev>13964198.9746</stdDev>
+        </loss>
+        <loss assetRef="a1114">
+          <mean>3585007.14828</mean>
+          <stdDev>2532072.51074</stdDev>
+        </loss>
+        <loss assetRef="a2189">
+          <mean>25044204.2054</mean>
+          <stdDev>17017850.5307</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_44">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5759127 38.2547893</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a41">
+          <mean>183138989.348</mean>
+          <stdDev>111027511.925</stdDev>
+        </loss>
+        <loss assetRef="a1116">
+          <mean>28454036.7224</mean>
+          <stdDev>22253996.0328</stdDev>
+        </loss>
+        <loss assetRef="a2191">
+          <mean>182396289.223</mean>
+          <stdDev>143004853.045</stdDev>
+        </loss>
+        <loss assetRef="a41">
+          <mean>178593380.948</mean>
+          <stdDev>128468963.295</stdDev>
+        </loss>
+        <loss assetRef="a1116">
+          <mean>27979493.0745</mean>
+          <stdDev>19077624.8045</stdDev>
+        </loss>
+        <loss assetRef="a2191">
+          <mean>178012058.907</mean>
+          <stdDev>139568876.432</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_45">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.509246 38.2047893</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a73">
+          <mean>5203264.18421</mean>
+          <stdDev>2005920.50568</stdDev>
+        </loss>
+        <loss assetRef="a1148">
+          <mean>831575.079505</mean>
+          <stdDev>346641.728017</stdDev>
+        </loss>
+        <loss assetRef="a2223">
+          <mean>5468463.80654</mean>
+          <stdDev>2309549.26533</stdDev>
+        </loss>
+        <loss assetRef="a73">
+          <mean>5251510.8494</mean>
+          <stdDev>1968041.87438</stdDev>
+        </loss>
+        <loss assetRef="a1148">
+          <mean>860390.222101</mean>
+          <stdDev>354045.886203</stdDev>
+        </loss>
+        <loss assetRef="a2223">
+          <mean>5421317.72048</mean>
+          <stdDev>2414097.00958</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_46">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.5259127 38.1547893</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a148">
+          <mean>2651296652.61</mean>
+          <stdDev>622663802.711</stdDev>
+        </loss>
+        <loss assetRef="a1223">
+          <mean>399683565.111</mean>
+          <stdDev>89152824.5544</stdDev>
+        </loss>
+        <loss assetRef="a2298">
+          <mean>2651808173.17</mean>
+          <stdDev>541705808.227</stdDev>
+        </loss>
+        <loss assetRef="a148">
+          <mean>2681650444.61</mean>
+          <stdDev>560150160.622</stdDev>
+        </loss>
+        <loss assetRef="a1223">
+          <mean>409377791.255</mean>
+          <stdDev>103239126.479</stdDev>
+        </loss>
+        <loss assetRef="a2298">
+          <mean>2633681326.66</mean>
+          <stdDev>603553401.36</stdDev>
+        </loss>
+      </LMNode>
+      <LMNode gml:id="lmn_47">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>15.4925793 38.271456</gml:pos>
+          </gml:Point>
+        </site>
+        <loss assetRef="a28">
+          <mean>16104222.459</mean>
+          <stdDev>6686318.20963</stdDev>
+        </loss>
+        <loss assetRef="a1103">
+          <mean>2322236.53948</mean>
+          <stdDev>1001523.53077</stdDev>
+        </loss>
+        <loss assetRef="a2178">
+          <mean>15558618.9568</mean>
+          <stdDev>6747350.26596</stdDev>
+        </loss>
+      </LMNode>
+    </lossMap>
+  </riskResult>
+</nrml>

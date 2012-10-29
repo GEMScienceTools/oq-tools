@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml" xmlns="http://openquake.org/xmlns/nrml/0.3" gml:id="n1">
+  <exposureModel gml:id="ep1">
+    <config/>
+    <exposureList gml:id="PAV01" assetCategory="buildings" areaType="per_asset" areaUnit="GBP" cocoType="per_area" cocoUnit="CHF" recoType="aggregated" recoUnit="EUR" stcoType="aggregated" stcoUnit="USD">
+      <gml:description>bla bla bla</gml:description>
+      <taxonomySource>pavia taxonomy</taxonomySource>
+      <assetDefinition gml:id="asset_1">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>28.6925 40.9775</gml:pos>
+          </gml:Point>
+        </site>
+        <area>1500</area>
+        <coco>4000</coco>
+        <deductible>0.05</deductible>
+        <limit>32000</limit>
+        <number>50</number>
+        <occupants description="day">10</occupants>
+        <occupants description="night">10</occupants>
+        <reco>1000</reco>
+        <stco>40000</stco>
+        <taxonomy>RC_MR_LC</taxonomy>
+      </assetDefinition>
+      <assetDefinition gml:id="asset_2">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>28.6975 40.9825</gml:pos>
+          </gml:Point>
+        </site>
+        <area>1000</area>
+        <coco>30000</coco>
+        <deductible>0.1</deductible>
+        <limit>240000</limit>
+        <number>100</number>
+        <occupants description="day">15</occupants>
+        <occupants description="night">15</occupants>
+        <reco>2000</reco>
+        <stco>300000</stco>
+        <taxonomy>RC_MR_LC</taxonomy>
+      </assetDefinition>
+      <assetDefinition gml:id="asset_3">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>28.7025 41.0525</gml:pos>
+          </gml:Point>
+        </site>
+        <area>1650</area>
+        <coco>15000</coco>
+        <deductible>0.1</deductible>
+        <limit>120000</limit>
+        <number>60</number>
+        <occupants description="day">9</occupants>
+        <occupants description="night">9</occupants>
+        <reco>1000</reco>
+        <stco>150000</stco>
+        <taxonomy>RC_MR_LC</taxonomy>
+      </assetDefinition>
+      <assetDefinition gml:id="asset_4">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>28.7025 40.9975</gml:pos>
+          </gml:Point>
+        </site>
+        <area>300</area>
+        <coco>6200</coco>
+        <deductible>0.15</deductible>
+        <limit>49600</limit>
+        <number>30</number>
+        <occupants description="day">18</occupants>
+        <occupants description="night">18</occupants>
+        <reco>3000</reco>
+        <stco>62000</stco>
+        <taxonomy>RC_MR_LC</taxonomy>
+      </assetDefinition>
+      <assetDefinition gml:id="asset_5">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>28.7025 40.9925</gml:pos>
+          </gml:Point>
+        </site>
+        <area>1560</area>
+        <coco>90000</coco>
+        <deductible>0.05</deductible>
+        <limit>720000</limit>
+        <number>100</number>
+        <occupants description="day">13</occupants>
+        <occupants description="night">13</occupants>
+        <reco>1500</reco>
+        <stco>900000</stco>
+        <taxonomy>RC_MR_LC</taxonomy>
+      </assetDefinition>
+      <assetDefinition gml:id="asset_6">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>28.7025 40.9925</gml:pos>
+          </gml:Point>
+        </site>
+        <taxonomy>RC_MR_LC</taxonomy>
+      </assetDefinition>
+      <assetDefinition gml:id="asset_7">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>28.7025 40.9925</gml:pos>
+          </gml:Point>
+        </site>
+        <taxonomy>RC_MR_LC</taxonomy>
+      </assetDefinition>
+    </exposureList>
+  </exposureModel>
+</nrml>

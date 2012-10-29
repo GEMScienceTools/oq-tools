@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml" xmlns="http://openquake.org/xmlns/nrml/0.3" gml:id="n1">
+  <exposureModel gml:id="ep1">
+    <config/>
+    <exposureList gml:id="PAV01" assetCategory="buildings" areaType="per_asset" areaUnit="GBP" cocoType="per_area" cocoUnit="CHF" recoType="aggregated" recoUnit="EUR" stcoType="aggregated" stcoUnit="USD">
+      <gml:description>Collection of existing building in downtown Pavia</gml:description>
+      <taxonomySource>pavia taxonomy</taxonomySource>
+      <assetDefinition gml:id="asset_1">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>28.6925 40.9775</gml:pos>
+          </gml:Point>
+        </site>
+        <area>1500</area>
+        <coco>1000</coco>
+        <deductible>0.05</deductible>
+        <limit>32000</limit>
+        <number>50</number>
+        <occupants description="day">10</occupants>
+        <reco>4000</reco>
+        <stco>40000</stco>
+        <taxonomy>RC_MR_LC</taxonomy>
+      </assetDefinition>
+      <assetDefinition gml:id="asset_2">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>28.6975 40.9825</gml:pos>
+          </gml:Point>
+        </site>
+        <area>1000</area>
+        <coco>2000</coco>
+        <deductible>0.10</deductible>
+        <limit>240000</limit>
+        <number>100</number>
+        <occupants description="day">15</occupants>
+        <reco>30000</reco>
+        <stco>300000</stco>
+        <taxonomy>RC_MR_LC</taxonomy>
+      </assetDefinition>
+      <assetDefinition gml:id="asset_3">
+        <site>
+          <gml:Point srsName="epsg:4326">
+            <gml:pos>28.6975 40.9825</gml:pos>
+          </gml:Point>
+        </site>
+        <taxonomy>RC_MR_LC</taxonomy>
+      </assetDefinition>
+    </exposureList>
+  </exposureModel>
+</nrml>
