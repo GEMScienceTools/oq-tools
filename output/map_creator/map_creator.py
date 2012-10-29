@@ -36,7 +36,7 @@ MSG_ERROR_NONEXISTENT_FILE = 'Error: nonexistent input file\n'
 OUTPUT_DIR = 'computed_output'
 OUTPUT_DAT = 'dat'
 
-NRML_NS = '{http://openquake.org/xmlns/nrml/0.3}'
+NRML_NS = '{http://openquake.org/xmlns/nrml/0.2}'
 
 LM_NODE = '%sLMNode' % NRML_NS
 
