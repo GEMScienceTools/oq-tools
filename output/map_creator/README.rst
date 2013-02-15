@@ -7,6 +7,7 @@ Install gmt::
     $ sudo apt-get install gmt
 
 Download gmt coastlines (use 7 in the mirror site selection)::
+
     $ gmt-coastline-download
 
 Usage:: 
