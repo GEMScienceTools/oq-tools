@@ -1,5 +1,13 @@
 The mapcreator script allows to create maps using gmt_,
-by giving a loss map as input.
+by giving a loss map as input. It depends on gmt
+and its coast lines.
+
+Install gmt::
+
+    $ sudo apt-get install gmt
+
+Download gmt coastlines (use 7 in the mirror site selection)::
+    $ gmt-coastline-download
 
 Usage:: 
 
