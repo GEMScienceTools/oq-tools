@@ -1,2 +1,3 @@
+*.gmt*
 *.pyc
 output/map_creator/computed_output/

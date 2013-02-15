@@ -27,7 +27,6 @@ import math
 
 
 def create_map(output_dir, compute_map_output, res, min_val, max_val):
-
     #gmtset commands
     os.system("gmtset GRID_CROSS_SIZE_PRIMARY = 0.2i")
     os.system("gmtset BASEMAP_TYPE            = PLAIN")
@@ -62,8 +61,10 @@ def create_map(output_dir, compute_map_output, res, min_val, max_val):
     os.system(awkcmd)
 
     # Create cpt
-    cptfile = "./cpt/YlOrRd_09.cpt"
-    cptf = "./cpt/Blues_08.cpt"
+    cpt_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'cpt'))
+    cptfile = os.path.join(cpt_path, "YlOrRd_09.cpt")
+    cptf = os.path.join(cpt_path, "Blues_08.cpt")
+
     min_val = "%.2e" % int(math.log10(min_val))
     max_val = "%.2e" % int(math.log10(max_val))
 
