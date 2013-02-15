@@ -1,0 +1,755 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml" xmlns="http://openquake.org/xmlns/nrml/0.4">
+  <lossMap investigationTime="None" poE="None" lossCategory="buildings" unit="USD">
+    <node>
+      <gml:Point>
+        <gml:pos>81.2985 29.1098</gml:pos>
+      </gml:Point>
+      <loss assetRef="a1" mean="155565.963544" stdDev="171114.752748"/>
+      <loss assetRef="a151" mean="993714.681084" stdDev="559506.17449"/>
+      <loss assetRef="a226" mean="472228.983867" stdDev="427890.597643"/>
+      <loss assetRef="a301" mean="4520.57926773" stdDev="4054.71392966"/>
+      <loss assetRef="a76" mean="1385537.85065" stdDev="1766537.45338"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>85.438499 27.6576</gml:pos>
+      </gml:Point>
+      <loss assetRef="a10" mean="68029599.7039" stdDev="31862463.4779"/>
+      <loss assetRef="a160" mean="97832093.8376" stdDev="35161251.5092"/>
+      <loss assetRef="a235" mean="125582976.083" stdDev="67204999.1866"/>
+      <loss assetRef="a310" mean="1313047.81674" stdDev="627367.148746"/>
+      <loss assetRef="a85" mean="210982490.569" stdDev="95373583.2505"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>81.8899 30.038799</gml:pos>
+      </gml:Point>
+      <loss assetRef="a100" mean="234203.264887" stdDev="256938.549682"/>
+      <loss assetRef="a175" mean="191928.942608" stdDev="140401.830074"/>
+      <loss assetRef="a25" mean="21723.9289195" stdDev="15772.108806"/>
+      <loss assetRef="a250" mean="86950.4790122" stdDev="71255.4276927"/>
+      <loss assetRef="a325" mean="1182.93382512" stdDev="1236.04045727"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>87.912498 26.862899</gml:pos>
+      </gml:Point>
+      <loss assetRef="a101" mean="1623641.81906" stdDev="1762802.15058"/>
+      <loss assetRef="a176" mean="1163613.51417" stdDev="766030.259261"/>
+      <loss assetRef="a251" mean="719677.11942" stdDev="909310.745342"/>
+      <loss assetRef="a26" mean="203658.941199" stdDev="259680.11449"/>
+      <loss assetRef="a326" mean="6551.85800912" stdDev="7361.46051371"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>82.170402 28.863899</gml:pos>
+      </gml:Point>
+      <loss assetRef="a102" mean="11992781.239" stdDev="13491271.8133"/>
+      <loss assetRef="a177" mean="7469634.88666" stdDev="8237989.34868"/>
+      <loss assetRef="a252" mean="4247019.17377" stdDev="4596106.52848"/>
+      <loss assetRef="a27" mean="1734066.21389" stdDev="1898011.70469"/>
+      <loss assetRef="a327" mean="42551.4043515" stdDev="36042.8999475"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>87.911499 26.571399</gml:pos>
+      </gml:Point>
+      <loss assetRef="a103" mean="3255267.61575" stdDev="1886439.93348"/>
+      <loss assetRef="a178" mean="2947796.49559" stdDev="2015753.04221"/>
+      <loss assetRef="a253" mean="1150566.40661" stdDev="576619.109603"/>
+      <loss assetRef="a28" mean="354611.296801" stdDev="161179.391663"/>
+      <loss assetRef="a328" mean="14636.4269531" stdDev="11500.5131439"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>82.222396 29.2712</gml:pos>
+      </gml:Point>
+      <loss assetRef="a104" mean="2009307.8969" stdDev="1989032.42319"/>
+      <loss assetRef="a179" mean="1388068.91152" stdDev="1126455.17643"/>
+      <loss assetRef="a254" mean="932208.441909" stdDev="1040434.0734"/>
+      <loss assetRef="a29" mean="371786.823406" stdDev="520776.307976"/>
+      <loss assetRef="a329" mean="9906.31221198" stdDev="10726.916779"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>80.873497 28.7436</gml:pos>
+      </gml:Point>
+      <loss assetRef="a105" mean="4852044.42382" stdDev="7568320.04766"/>
+      <loss assetRef="a180" mean="3454002.86596" stdDev="3283728.68159"/>
+      <loss assetRef="a255" mean="1639213.43669" stdDev="2396850.56194"/>
+      <loss assetRef="a30" mean="521013.294621" stdDev="853381.24008"/>
+      <loss assetRef="a330" mean="18653.9580201" stdDev="17216.844198"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>81.755996 29.1923</gml:pos>
+      </gml:Point>
+      <loss assetRef="a106" mean="1162528.29303" stdDev="1692598.71653"/>
+      <loss assetRef="a181" mean="1342793.96745" stdDev="2050528.50397"/>
+      <loss assetRef="a256" mean="626472.580446" stdDev="1034130.79818"/>
+      <loss assetRef="a31" mean="214265.75696" stdDev="387886.431945"/>
+      <loss assetRef="a331" mean="6151.26543704" stdDev="9571.61614357"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>80.317596 28.87</gml:pos>
+      </gml:Point>
+      <loss assetRef="a107" mean="373595.652083" stdDev="334370.30129"/>
+      <loss assetRef="a182" mean="373569.571661" stdDev="362134.910242"/>
+      <loss assetRef="a257" mean="126709.73715" stdDev="76848.2700667"/>
+      <loss assetRef="a32" mean="36948.8345375" stdDev="28532.2785123"/>
+      <loss assetRef="a332" mean="1533.59346265" stdDev="2188.63262623"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>82.991096 27.6296</gml:pos>
+      </gml:Point>
+      <loss assetRef="a108" mean="87740881.9024" stdDev="72730760.3171"/>
+      <loss assetRef="a183" mean="47903231.3166" stdDev="36981602.4433"/>
+      <loss assetRef="a258" mean="46329537.6" stdDev="58384179.3689"/>
+      <loss assetRef="a33" mean="14952945.4417" stdDev="19592057.4337"/>
+      <loss assetRef="a333" mean="417168.667765" stdDev="512788.185918"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>84.005996 28.350099</gml:pos>
+      </gml:Point>
+      <loss assetRef="a109" mean="382829953.779" stdDev="177671393.754"/>
+      <loss assetRef="a184" mean="204402618.606" stdDev="74370528.7057"/>
+      <loss assetRef="a259" mean="244861371.469" stdDev="98942919.9351"/>
+      <loss assetRef="a334" mean="3273599.15091" stdDev="1996587.02442"/>
+      <loss assetRef="a34" mean="197535481.27" stdDev="108499871.532"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>87.080902 27.1648</gml:pos>
+      </gml:Point>
+      <loss assetRef="a11" mean="1787938.38695" stdDev="2655848.60949"/>
+      <loss assetRef="a161" mean="6649064.69669" stdDev="5563358.84002"/>
+      <loss assetRef="a236" mean="5032743.1261" stdDev="6187160.26068"/>
+      <loss assetRef="a311" mean="51709.3110088" stdDev="57289.9546219"/>
+      <loss assetRef="a86" mean="14767705.3294" stdDev="18576955.4582"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>85.3544 27.712499</gml:pos>
+      </gml:Point>
+      <loss assetRef="a110" mean="1508396795.26" stdDev="664387557.075"/>
+      <loss assetRef="a185" mean="765365910.198" stdDev="314808792.609"/>
+      <loss assetRef="a260" mean="755009988.694" stdDev="202923388.591"/>
+      <loss assetRef="a335" mean="9235504.55509" stdDev="3367205.04223"/>
+      <loss assetRef="a35" mean="527359917.898" stdDev="313992592.126"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>85.627098 27.5277</gml:pos>
+      </gml:Point>
+      <loss assetRef="a111" mean="164933981.803" stdDev="94447358.9202"/>
+      <loss assetRef="a186" mean="73959203.9399" stdDev="29648326.0796"/>
+      <loss assetRef="a261" mean="71366404.2009" stdDev="40138709.902"/>
+      <loss assetRef="a336" mean="717091.859353" stdDev="331293.194624"/>
+      <loss assetRef="a36" mean="32659013.8229" stdDev="19561062.6898"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>86.7966 27.146799</gml:pos>
+      </gml:Point>
+      <loss assetRef="a112" mean="12713392.3395" stdDev="22324497.5639"/>
+      <loss assetRef="a187" mean="10545767.8583" stdDev="17434893.0649"/>
+      <loss assetRef="a262" mean="7008230.8129" stdDev="13653902.918"/>
+      <loss assetRef="a337" mean="68553.6737428" stdDev="120309.342948"/>
+      <loss assetRef="a37" mean="2670629.41074" stdDev="5475136.50385"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>85.347702 27.523099</gml:pos>
+      </gml:Point>
+      <loss assetRef="a113" mean="342682388.461" stdDev="132536580.892"/>
+      <loss assetRef="a188" mean="180042918.647" stdDev="77672599.6542"/>
+      <loss assetRef="a263" mean="154009648.782" stdDev="72385279.9397"/>
+      <loss assetRef="a338" mean="2175942.65239" stdDev="1020876.24662"/>
+      <loss assetRef="a38" mean="90084547.0535" stdDev="45562867.4926"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>84.438796 28.282499</gml:pos>
+      </gml:Point>
+      <loss assetRef="a114" mean="155408544.306" stdDev="74687987.2155"/>
+      <loss assetRef="a189" mean="77153360.916" stdDev="20853029.3391"/>
+      <loss assetRef="a264" mean="84534302.8827" stdDev="50593308.9004"/>
+      <loss assetRef="a339" mean="965732.220059" stdDev="499863.418595"/>
+      <loss assetRef="a39" mean="52181806.7015" stdDev="28048389.0212"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>85.828697 26.861799</gml:pos>
+      </gml:Point>
+      <loss assetRef="a115" mean="101898884.852" stdDev="70052932.3733"/>
+      <loss assetRef="a190" mean="71968574.1878" stdDev="53628715.3613"/>
+      <loss assetRef="a265" mean="71201927.2762" stdDev="59890340.0605"/>
+      <loss assetRef="a340" mean="676298.169065" stdDev="636519.225594"/>
+      <loss assetRef="a40" mean="34143528.3802" stdDev="33381592.617"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>85.092498 27.455999</gml:pos>
+      </gml:Point>
+      <loss assetRef="a116" mean="280265911.809" stdDev="152209713.002"/>
+      <loss assetRef="a191" mean="143713105.051" stdDev="63011809.1904"/>
+      <loss assetRef="a266" mean="125286670.402" stdDev="77009432.0874"/>
+      <loss assetRef="a341" mean="1842724.50231" stdDev="1484940.75915"/>
+      <loss assetRef="a41" mean="96646706.2125" stdDev="78550980.939"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>84.229103 28.669099</gml:pos>
+      </gml:Point>
+      <loss assetRef="a117" mean="4415677.30291" stdDev="1893872.69229"/>
+      <loss assetRef="a192" mean="2749128.98422" stdDev="1036824.19766"/>
+      <loss assetRef="a267" mean="2436058.88841" stdDev="1374377.19981"/>
+      <loss assetRef="a342" mean="36012.7444736" stdDev="26163.789515"/>
+      <loss assetRef="a42" mean="1414168.03019" stdDev="835118.28137"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>87.481002 26.6102</gml:pos>
+      </gml:Point>
+      <loss assetRef="a118" mean="14765499.6593" stdDev="27607500.085"/>
+      <loss assetRef="a193" mean="10556997.3415" stdDev="16838644.4561"/>
+      <loss assetRef="a268" mean="4523749.55396" stdDev="8307268.55594"/>
+      <loss assetRef="a343" mean="57933.8774102" stdDev="109908.08522"/>
+      <loss assetRef="a43" mean="2320443.21713" stdDev="5125973.34078"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>82.374801 29.6196</gml:pos>
+      </gml:Point>
+      <loss assetRef="a119" mean="830792.793477" stdDev="607098.412207"/>
+      <loss assetRef="a194" mean="683636.532511" stdDev="570498.585467"/>
+      <loss assetRef="a269" mean="352966.600081" stdDev="335978.619767"/>
+      <loss assetRef="a344" mean="3984.76616245" stdDev="4421.71900853"/>
+      <loss assetRef="a44" mean="81639.8663306" stdDev="54149.4551437"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>84.449501 27.581399</gml:pos>
+      </gml:Point>
+      <loss assetRef="a12" mean="143403791.352" stdDev="100173148.297"/>
+      <loss assetRef="a162" mean="244824459.895" stdDev="100998753.956"/>
+      <loss assetRef="a237" mean="212144600.796" stdDev="108968373.447"/>
+      <loss assetRef="a312" mean="2653087.12193" stdDev="1070309.78203"/>
+      <loss assetRef="a87" mean="471700801.227" stdDev="187264187.733"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>83.837402 28.968599</gml:pos>
+      </gml:Point>
+      <loss assetRef="a120" mean="7008276.72256" stdDev="2408578.48638"/>
+      <loss assetRef="a195" mean="3442294.7278" stdDev="2011870.08013"/>
+      <loss assetRef="a270" mean="2877681.98232" stdDev="1343827.22911"/>
+      <loss assetRef="a345" mean="29140.8113875" stdDev="16908.1365751"/>
+      <loss assetRef="a45" mean="1337664.11523" stdDev="675105.774122"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>83.464302 28.5414</gml:pos>
+      </gml:Point>
+      <loss assetRef="a121" mean="46622620.2155" stdDev="35048329.0908"/>
+      <loss assetRef="a196" mean="26668332.4554" stdDev="19466129.9667"/>
+      <loss assetRef="a271" mean="23018986.6777" stdDev="19605682.0916"/>
+      <loss assetRef="a346" mean="296106.813323" stdDev="258405.02532"/>
+      <loss assetRef="a46" mean="12323329.2758" stdDev="11880375.1866"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>83.969902 27.6322</gml:pos>
+      </gml:Point>
+      <loss assetRef="a122" mean="271722076.118" stdDev="131223471.624"/>
+      <loss assetRef="a197" mean="132481391.994" stdDev="42576687.7043"/>
+      <loss assetRef="a272" mean="127720542.755" stdDev="84293972.14"/>
+      <loss assetRef="a347" mean="2111127.91604" stdDev="1616200.55584"/>
+      <loss assetRef="a47" mean="82030516.3832" stdDev="71484669.0094"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>85.242103 27.902</gml:pos>
+      </gml:Point>
+      <loss assetRef="a123" mean="242289259.384" stdDev="79658154.6464"/>
+      <loss assetRef="a198" mean="95699511.8607" stdDev="41169665.3624"/>
+      <loss assetRef="a273" mean="114022996.928" stdDev="46562909.7475"/>
+      <loss assetRef="a348" mean="1464459.15761" stdDev="534379.670172"/>
+      <loss assetRef="a48" mean="73237100.1937" stdDev="40311877.4259"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>86.4346 27.3117</gml:pos>
+      </gml:Point>
+      <loss assetRef="a124" mean="18931102.788" stdDev="12617124.8104"/>
+      <loss assetRef="a199" mean="14303769.1324" stdDev="8017023.9428"/>
+      <loss assetRef="a274" mean="10655463.1455" stdDev="10331226.8685"/>
+      <loss assetRef="a349" mean="124381.406446" stdDev="104302.711503"/>
+      <loss assetRef="a49" mean="4704018.95809" stdDev="4671087.20126"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>83.633102 27.8064</gml:pos>
+      </gml:Point>
+      <loss assetRef="a125" mean="134638209.605" stdDev="62044818.2168"/>
+      <loss assetRef="a200" mean="88079269.5212" stdDev="36609268.0517"/>
+      <loss assetRef="a275" mean="99867189.5068" stdDev="59718824.8272"/>
+      <loss assetRef="a350" mean="1182119.11982" stdDev="830503.366969"/>
+      <loss assetRef="a50" mean="57903304.9175" stdDev="54255065.7809"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>87.769996 27.085399</gml:pos>
+      </gml:Point>
+      <loss assetRef="a126" mean="3051283.81185" stdDev="5943250.98971"/>
+      <loss assetRef="a201" mean="2430908.52992" stdDev="4468426.93886"/>
+      <loss assetRef="a276" mean="1464512.16593" stdDev="3211804.22487"/>
+      <loss assetRef="a351" mean="18704.5673526" stdDev="45116.4270176"/>
+      <loss assetRef="a51" mean="436450.408204" stdDev="938569.934593"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>83.686996 28.200899</gml:pos>
+      </gml:Point>
+      <loss assetRef="a127" mean="98992001.3615" stdDev="53624948.4048"/>
+      <loss assetRef="a202" mean="54731174.0168" stdDev="20920551.9276"/>
+      <loss assetRef="a277" mean="42274842.3921" stdDev="21166827.0031"/>
+      <loss assetRef="a352" mean="673929.607318" stdDev="395146.001154"/>
+      <loss assetRef="a52" mean="25010212.4596" stdDev="12954755.121"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>84.785598 27.2308</gml:pos>
+      </gml:Point>
+      <loss assetRef="a128" mean="262082699.246" stdDev="171887313.87"/>
+      <loss assetRef="a203" mean="131098556.816" stdDev="54410077.0069"/>
+      <loss assetRef="a278" mean="113926225.145" stdDev="52463567.7444"/>
+      <loss assetRef="a353" mean="1259363.55215" stdDev="581709.764607"/>
+      <loss assetRef="a53" mean="75560394.109" stdDev="35607445.4149"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>82.866401 28.106399</gml:pos>
+      </gml:Point>
+      <loss assetRef="a129" mean="64876534.3098" stdDev="48973310.9126"/>
+      <loss assetRef="a204" mean="36590359.6989" stdDev="29522332.0427"/>
+      <loss assetRef="a279" mean="34371096.4527" stdDev="30754403.8727"/>
+      <loss assetRef="a354" mean="453102.536416" stdDev="602556.692085"/>
+      <loss assetRef="a54" mean="18035062.175" stdDev="17545414.3791"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>80.484397 29.2275</gml:pos>
+      </gml:Point>
+      <loss assetRef="a13" mean="18240.6403868" stdDev="16167.9818348"/>
+      <loss assetRef="a163" mean="172204.085396" stdDev="155896.353363"/>
+      <loss assetRef="a238" mean="65309.9406316" stdDev="62385.3009819"/>
+      <loss assetRef="a313" mean="881.567946187" stdDev="810.877348783"/>
+      <loss assetRef="a88" mean="148626.865863" stdDev="148597.532423"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>86.177299 27.4869</gml:pos>
+      </gml:Point>
+      <loss assetRef="a130" mean="43413115.9812" stdDev="33339131.8964"/>
+      <loss assetRef="a205" mean="21223884.7516" stdDev="12597756.662"/>
+      <loss assetRef="a280" mean="16602727.9468" stdDev="13210895.0979"/>
+      <loss assetRef="a355" mean="222156.362267" stdDev="194744.72295"/>
+      <loss assetRef="a55" mean="6704957.92864" stdDev="6045868.86848"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>85.3908 28.1667</gml:pos>
+      </gml:Point>
+      <loss assetRef="a131" mean="31712985.0574" stdDev="17790515.697"/>
+      <loss assetRef="a206" mean="15571505.9358" stdDev="5775698.61398"/>
+      <loss assetRef="a281" mean="11395833.4984" stdDev="4435615.11389"/>
+      <loss assetRef="a356" mean="166460.97454" stdDev="114763.471948"/>
+      <loss assetRef="a56" mean="8067197.91893" stdDev="4619927.01413"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>85.303199 26.9962</gml:pos>
+      </gml:Point>
+      <loss assetRef="a132" mean="191587783.334" stdDev="82649441.3583"/>
+      <loss assetRef="a207" mean="143462838.049" stdDev="97054569.5844"/>
+      <loss assetRef="a282" mean="116710107.963" stdDev="72155931.7836"/>
+      <loss assetRef="a357" mean="1387101.14559" stdDev="844364.335762"/>
+      <loss assetRef="a57" mean="59032908.5327" stdDev="48424522.0861"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>82.623497 28.335199</gml:pos>
+      </gml:Point>
+      <loss assetRef="a133" mean="39669534.48" stdDev="41432623.8366"/>
+      <loss assetRef="a208" mean="17070989.2567" stdDev="14531001.8797"/>
+      <loss assetRef="a283" mean="11989306.7186" stdDev="11335321.8615"/>
+      <loss assetRef="a358" mean="145284.71564" stdDev="129833.948875"/>
+      <loss assetRef="a58" mean="5143637.96084" stdDev="5269191.47951"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>82.663299 28.6961</gml:pos>
+      </gml:Point>
+      <loss assetRef="a134" mean="25412624.5626" stdDev="27068479.3133"/>
+      <loss assetRef="a209" mean="13953314.8936" stdDev="11313458.4925"/>
+      <loss assetRef="a284" mean="11313424.9247" stdDev="12679507.7469"/>
+      <loss assetRef="a359" mean="84214.7385387" stdDev="80360.4348623"/>
+      <loss assetRef="a59" mean="4625342.54322" stdDev="5160973.02432"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>83.394302 27.575799</gml:pos>
+      </gml:Point>
+      <loss assetRef="a135" mean="364026440.257" stdDev="264459605.202"/>
+      <loss assetRef="a210" mean="172393904.332" stdDev="88259900.4627"/>
+      <loss assetRef="a285" mean="124654250.863" stdDev="60785796.1724"/>
+      <loss assetRef="a360" mean="1725437.26326" stdDev="1403224.73392"/>
+      <loss assetRef="a60" mean="64709342.8952" stdDev="50975380.9464"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>82.141197 28.3924</gml:pos>
+      </gml:Point>
+      <loss assetRef="a136" mean="14887817.3434" stdDev="25327065.7896"/>
+      <loss assetRef="a211" mean="7112394.91388" stdDev="10037350.4126"/>
+      <loss assetRef="a286" mean="5451748.11282" stdDev="9397525.54554"/>
+      <loss assetRef="a361" mean="73986.2585603" stdDev="131037.010627"/>
+      <loss assetRef="a61" mean="2095961.02384" stdDev="3792713.4271"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>87.290298 27.574899</gml:pos>
+      </gml:Point>
+      <loss assetRef="a137" mean="13004833.0497" stdDev="26876386.9886"/>
+      <loss assetRef="a212" mean="5521202.17323" stdDev="8562207.61166"/>
+      <loss assetRef="a287" mean="4274563.11742" stdDev="7160836.67649"/>
+      <loss assetRef="a362" mean="56717.9040405" stdDev="118697.997448"/>
+      <loss assetRef="a62" mean="1936366.22034" stdDev="3918354.97944"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>86.727203 26.6039</gml:pos>
+      </gml:Point>
+      <loss assetRef="a138" mean="62820606.0246" stdDev="94877572.7983"/>
+      <loss assetRef="a213" mean="29791757.2467" stdDev="40739279.878"/>
+      <loss assetRef="a288" mean="22941023.2178" stdDev="36344969.359"/>
+      <loss assetRef="a363" mean="314997.623393" stdDev="575258.751845"/>
+      <loss assetRef="a63" mean="9494284.81433" stdDev="17623126.0627"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>85.583198 26.981599</gml:pos>
+      </gml:Point>
+      <loss assetRef="a139" mean="220015602.146" stdDev="138673470.305"/>
+      <loss assetRef="a214" mean="86707110.7986" stdDev="37645791.4872"/>
+      <loss assetRef="a289" mean="91115598.0498" stdDev="100835771.103"/>
+      <loss assetRef="a364" mean="969105.468737" stdDev="762425.900583"/>
+      <loss assetRef="a64" mean="44370484.1125" stdDev="49117801.0585"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>81.687698 28.877599</gml:pos>
+      </gml:Point>
+      <loss assetRef="a14" mean="949438.07044" stdDev="1900956.26518"/>
+      <loss assetRef="a164" mean="5747405.51332" stdDev="8603017.5659"/>
+      <loss assetRef="a239" mean="2973201.60078" stdDev="4532258.11332"/>
+      <loss assetRef="a314" mean="29723.2544669" stdDev="45759.3689397"/>
+      <loss assetRef="a89" mean="9388673.55556" stdDev="18276674.662"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>85.954299 27.1849</gml:pos>
+      </gml:Point>
+      <loss assetRef="a140" mean="85165908.8271" stdDev="36687450.3537"/>
+      <loss assetRef="a215" mean="39045408.3736" stdDev="21584275.2472"/>
+      <loss assetRef="a290" mean="28462391.1551" stdDev="16914457.196"/>
+      <loss assetRef="a365" mean="356058.123268" stdDev="204172.783148"/>
+      <loss assetRef="a65" mean="16036125.4404" stdDev="15107159.3388"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>85.747703 27.9015</gml:pos>
+      </gml:Point>
+      <loss assetRef="a141" mean="132120460.948" stdDev="72689567.892"/>
+      <loss assetRef="a216" mean="77922442.152" stdDev="24232754.6693"/>
+      <loss assetRef="a291" mean="76762788.3362" stdDev="36976491.1145"/>
+      <loss assetRef="a366" mean="881363.168026" stdDev="703884.433093"/>
+      <loss assetRef="a66" mean="38728996.9338" stdDev="25994335.7956"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>86.352699 26.743999</gml:pos>
+      </gml:Point>
+      <loss assetRef="a142" mean="84002092.0025" stdDev="111573151.417"/>
+      <loss assetRef="a217" mean="49808831.9014" stdDev="57370747.8745"/>
+      <loss assetRef="a292" mean="31796526.2609" stdDev="41929757.3461"/>
+      <loss assetRef="a367" mean="372860.309914" stdDev="485189.72384"/>
+      <loss assetRef="a67" mean="19017231.9805" stdDev="25373427.4946"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>86.725898 27.7005</gml:pos>
+      </gml:Point>
+      <loss assetRef="a143" mean="17903403.8616" stdDev="15050548.0224"/>
+      <loss assetRef="a218" mean="13829277.1994" stdDev="11074642.3581"/>
+      <loss assetRef="a293" mean="7880742.03789" stdDev="9139677.04737"/>
+      <loss assetRef="a368" mean="82248.0052326" stdDev="69516.6508096"/>
+      <loss assetRef="a68" mean="3666175.40174" stdDev="5249149.66518"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>87.170898 26.635099</gml:pos>
+      </gml:Point>
+      <loss assetRef="a144" mean="14627973.9065" stdDev="20527876.5437"/>
+      <loss assetRef="a219" mean="10425316.4702" stdDev="12585565.8487"/>
+      <loss assetRef="a294" mean="9075040.41543" stdDev="17437164.0752"/>
+      <loss assetRef="a369" mean="55607.8518579" stdDev="66361.2114275"/>
+      <loss assetRef="a69" mean="1744084.42833" stdDev="2206577.94855"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>81.586196 28.638599</gml:pos>
+      </gml:Point>
+      <loss assetRef="a145" mean="3695564.09615" stdDev="7768972.9718"/>
+      <loss assetRef="a220" mean="3200621.7662" stdDev="5498572.54685"/>
+      <loss assetRef="a295" mean="1760249.96446" stdDev="3706506.19824"/>
+      <loss assetRef="a370" mean="15916.1859158" stdDev="31010.8299497"/>
+      <loss assetRef="a70" mean="380733.691437" stdDev="696950.940396"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>83.819801 28.020399</gml:pos>
+      </gml:Point>
+      <loss assetRef="a146" mean="190141227.121" stdDev="67504217.2027"/>
+      <loss assetRef="a221" mean="109109919.788" stdDev="34668873.8779"/>
+      <loss assetRef="a296" mean="121262127.521" stdDev="90144116.1435"/>
+      <loss assetRef="a371" mean="1591021.04411" stdDev="1004497.78351"/>
+      <loss assetRef="a71" mean="80196299.2663" stdDev="51330746.9708"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>84.261001 27.9458</gml:pos>
+      </gml:Point>
+      <loss assetRef="a147" mean="280372531.243" stdDev="55458532.4104"/>
+      <loss assetRef="a222" mean="143262127.982" stdDev="41022979.3588"/>
+      <loss assetRef="a297" mean="169076926.666" stdDev="111410700.224"/>
+      <loss assetRef="a372" mean="2006972.1851" stdDev="669605.560443"/>
+      <loss assetRef="a72" mean="103692907.753" stdDev="42325870.7641"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>87.824996 27.554599</gml:pos>
+      </gml:Point>
+      <loss assetRef="a148" mean="1152118.25449" stdDev="1892291.68656"/>
+      <loss assetRef="a223" mean="1026807.81515" stdDev="1263349.35327"/>
+      <loss assetRef="a298" mean="661914.314545" stdDev="1292117.66713"/>
+      <loss assetRef="a373" mean="7147.17509539" stdDev="14594.858344"/>
+      <loss assetRef="a73" mean="170437.830507" stdDev="316769.498413"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>87.555702 27.130899</gml:pos>
+      </gml:Point>
+      <loss assetRef="a149" mean="1932151.39075" stdDev="2307458.27395"/>
+      <loss assetRef="a224" mean="1376920.28665" stdDev="1458448.6599"/>
+      <loss assetRef="a299" mean="723749.640812" stdDev="860478.064298"/>
+      <loss assetRef="a374" mean="6056.81597744" stdDev="6232.30833093"/>
+      <loss assetRef="a74" mean="193814.398197" stdDev="214692.154309"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>82.419197 27.956699</gml:pos>
+      </gml:Point>
+      <loss assetRef="a15" mean="7584551.19062" stdDev="6729418.05952"/>
+      <loss assetRef="a165" mean="30885726.3401" stdDev="22250542.213"/>
+      <loss assetRef="a240" mean="18054923.2137" stdDev="12330262.4144"/>
+      <loss assetRef="a315" mean="233969.38644" stdDev="196195.07186"/>
+      <loss assetRef="a90" mean="47418681.2687" stdDev="42090948.3589"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>86.7108 26.891399</gml:pos>
+      </gml:Point>
+      <loss assetRef="a150" mean="23609935.7222" stdDev="26948183.3923"/>
+      <loss assetRef="a225" mean="13216049.1363" stdDev="16122382.4484"/>
+      <loss assetRef="a300" mean="7476130.31195" stdDev="8004344.99761"/>
+      <loss assetRef="a375" mean="79011.4290865" stdDev="91636.5817231"/>
+      <loss assetRef="a75" mean="3130215.85027" stdDev="3960765.38914"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>83.082298 27.9006</gml:pos>
+      </gml:Point>
+      <loss assetRef="a152" mean="29432628.3013" stdDev="24731902.9337"/>
+      <loss assetRef="a2" mean="12306116.4142" stdDev="16680359.5865"/>
+      <loss assetRef="a227" mean="22491944.5914" stdDev="17413033.1628"/>
+      <loss assetRef="a302" mean="291094.308721" stdDev="298542.736729"/>
+      <loss assetRef="a77" mean="50010202.8866" stdDev="35816184.9023"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>83.250999 28.340499</gml:pos>
+      </gml:Point>
+      <loss assetRef="a153" mean="40085598.3791" stdDev="16480437.8857"/>
+      <loss assetRef="a228" mean="36088766.3954" stdDev="19956389.6957"/>
+      <loss assetRef="a3" mean="16236430.9371" stdDev="10723744.1975"/>
+      <loss assetRef="a303" mean="455560.971618" stdDev="219104.095696"/>
+      <loss assetRef="a78" mean="74335913.8529" stdDev="33772061.9302"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>80.562103 29.5104</gml:pos>
+      </gml:Point>
+      <loss assetRef="a154" mean="293810.872041" stdDev="356729.025703"/>
+      <loss assetRef="a229" mean="85238.7974733" stdDev="93611.1091753"/>
+      <loss assetRef="a304" mean="1024.45763881" stdDev="1067.5163268"/>
+      <loss assetRef="a4" mean="26428.2673845" stdDev="29689.8316087"/>
+      <loss assetRef="a79" mean="291636.226148" stdDev="345629.256889"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>81.1791 29.7136</gml:pos>
+      </gml:Point>
+      <loss assetRef="a155" mean="439810.688511" stdDev="362813.025834"/>
+      <loss assetRef="a230" mean="191840.535118" stdDev="122438.123737"/>
+      <loss assetRef="a305" mean="2177.95844655" stdDev="1554.28829011"/>
+      <loss assetRef="a5" mean="45669.2794603" stdDev="24556.8026263"/>
+      <loss assetRef="a80" mean="326120.912001" stdDev="178513.206324"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>81.568496 29.564199</gml:pos>
+      </gml:Point>
+      <loss assetRef="a156" mean="527011.588773" stdDev="412913.657343"/>
+      <loss assetRef="a231" mean="278038.68762" stdDev="303262.661349"/>
+      <loss assetRef="a306" mean="2246.32526977" stdDev="1412.60945729"/>
+      <loss assetRef="a6" mean="64147.386167" stdDev="72204.3179385"/>
+      <loss assetRef="a81" mean="531166.479757" stdDev="498708.0179"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>81.825302 28.0893</gml:pos>
+      </gml:Point>
+      <loss assetRef="a157" mean="9914264.68729" stdDev="13951208.4741"/>
+      <loss assetRef="a232" mean="3428058.85084" stdDev="3122756.89945"/>
+      <loss assetRef="a307" mean="38926.0100665" stdDev="38967.0173049"/>
+      <loss assetRef="a7" mean="1798131.93076" stdDev="2409217.21579"/>
+      <loss assetRef="a82" mean="12193822.1238" stdDev="17844022.8437"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>85.066703 27.1018</gml:pos>
+      </gml:Point>
+      <loss assetRef="a158" mean="128854385.875" stdDev="49916172.9545"/>
+      <loss assetRef="a233" mean="126006605.39" stdDev="89348764.7216"/>
+      <loss assetRef="a308" mean="1497544.74127" stdDev="1190938.97867"/>
+      <loss assetRef="a8" mean="70363573.178" stdDev="54005686.6569"/>
+      <loss assetRef="a83" mean="276847635.071" stdDev="185946551.808"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>81.395103 28.386699</gml:pos>
+      </gml:Point>
+      <loss assetRef="a159" mean="3069415.72833" stdDev="3374210.28139"/>
+      <loss assetRef="a234" mean="1578202.12802" stdDev="1833692.703"/>
+      <loss assetRef="a309" mean="21164.8863787" stdDev="30094.331664"/>
+      <loss assetRef="a84" mean="4355406.99134" stdDev="5398840.08262"/>
+      <loss assetRef="a9" mean="523318.862956" stdDev="939609.680808"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>80.782897 29.890699</gml:pos>
+      </gml:Point>
+      <loss assetRef="a16" mean="16921.4315879" stdDev="15841.4831988"/>
+      <loss assetRef="a166" mean="141884.884654" stdDev="144062.91724"/>
+      <loss assetRef="a241" mean="48256.9325488" stdDev="41276.273614"/>
+      <loss assetRef="a316" mean="717.91767982" stdDev="916.454177285"/>
+      <loss assetRef="a91" mean="144869.880588" stdDev="130559.039649"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>84.961799 27.935199</gml:pos>
+      </gml:Point>
+      <loss assetRef="a167" mean="126041977.597" stdDev="64083570.0884"/>
+      <loss assetRef="a17" mean="94562071.1049" stdDev="44942349.3156"/>
+      <loss assetRef="a242" mean="115227126.222" stdDev="46101955.4433"/>
+      <loss assetRef="a317" mean="1877151.81199" stdDev="931701.38002"/>
+      <loss assetRef="a92" mean="251860206.838" stdDev="97624578.9263"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>87.343803 26.969999</gml:pos>
+      </gml:Point>
+      <loss assetRef="a168" mean="4256727.73796" stdDev="3390407.27784"/>
+      <loss assetRef="a18" mean="1035109.40883" stdDev="1624183.80989"/>
+      <loss assetRef="a243" mean="2871919.81309" stdDev="4030484.87145"/>
+      <loss assetRef="a318" mean="27946.8667495" stdDev="32047.5418728"/>
+      <loss assetRef="a93" mean="6874684.93139" stdDev="9790276.13023"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>86.045402 26.822999</gml:pos>
+      </gml:Point>
+      <loss assetRef="a169" mean="49859727.8407" stdDev="37041543.7479"/>
+      <loss assetRef="a19" mean="15315878.3187" stdDev="19028822.5592"/>
+      <loss assetRef="a244" mean="34699070.3927" stdDev="32395758.1305"/>
+      <loss assetRef="a319" mean="388659.694722" stdDev="348512.268748"/>
+      <loss assetRef="a94" mean="98700363.1671" stdDev="100188591.209"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>86.2117 27.779499</gml:pos>
+      </gml:Point>
+      <loss assetRef="a170" mean="44980463.3141" stdDev="25398697.0185"/>
+      <loss assetRef="a20" mean="18973934.8996" stdDev="13195748.0232"/>
+      <loss assetRef="a245" mean="42325592.2175" stdDev="28246192.9799"/>
+      <loss assetRef="a320" mean="330929.603829" stdDev="228608.644339"/>
+      <loss assetRef="a95" mean="77773754.4249" stdDev="47599124.1364"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>83.055496 29.165199</gml:pos>
+      </gml:Point>
+      <loss assetRef="a171" mean="4011828.71934" stdDev="4034409.15449"/>
+      <loss assetRef="a21" mean="1039631.30487" stdDev="1134831.4945"/>
+      <loss assetRef="a246" mean="1974641.65606" stdDev="1367975.45302"/>
+      <loss assetRef="a321" mean="24446.6557459" stdDev="19035.9848849"/>
+      <loss assetRef="a96" mean="6640240.95538" stdDev="6037762.12246"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>80.891998 29.173</gml:pos>
+      </gml:Point>
+      <loss assetRef="a172" mean="651900.219528" stdDev="547874.470558"/>
+      <loss assetRef="a22" mean="103643.143696" stdDev="92785.9230388"/>
+      <loss assetRef="a247" mean="293617.452845" stdDev="295577.512941"/>
+      <loss assetRef="a322" mean="4140.96790835" stdDev="4431.62444055"/>
+      <loss assetRef="a97" mean="983668.31788" stdDev="927200.181235"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>84.801597 28.312799</gml:pos>
+      </gml:Point>
+      <loss assetRef="a173" mean="96414437.6086" stdDev="39478685.8481"/>
+      <loss assetRef="a23" mean="92387674.797" stdDev="38946512.798"/>
+      <loss assetRef="a248" mean="154440108.023" stdDev="50933993.8779"/>
+      <loss assetRef="a323" mean="1741063.66684" stdDev="796273.592404"/>
+      <loss assetRef="a98" mean="246985349.093" stdDev="95690729.3372"/>
+    </node>
+    <node>
+      <gml:Point>
+        <gml:pos>83.294197 28.091299</gml:pos>
+      </gml:Point>
+      <loss assetRef="a174" mean="66520642.0509" stdDev="37893628.581"/>
+      <loss assetRef="a24" mean="29064804.4223" stdDev="23137854.8364"/>
+      <loss assetRef="a249" mean="46069036.1291" stdDev="36071806.4366"/>
+      <loss assetRef="a324" mean="666062.735446" stdDev="534333.963907"/>
+      <loss assetRef="a99" mean="122059189.96" stdDev="80990892.9478"/>
+    </node>
+  </lossMap>
+</nrml>

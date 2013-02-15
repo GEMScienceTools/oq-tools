@@ -36,15 +36,13 @@ MSG_ERROR_NONEXISTENT_FILE = 'Error: nonexistent input file\n'
 OUTPUT_DIR = 'computed_output'
 OUTPUT_DAT = 'dat'
 
-NRML_NS = '{http://openquake.org/xmlns/nrml/0.2}'
+NRML_NS = '{http://openquake.org/xmlns/nrml/0.4}'
 
-LM_NODE = '%sLMNode' % NRML_NS
+NODE = '%snode' % NRML_NS
 
 POS_NODE = '{http://www.opengis.net/gml}pos'
 
 LOSS_NODE_ELEM = '%sloss' % NRML_NS
-
-MEAN_NODE = '%smean' % NRML_NS
 
 ENTRY = namedtuple('Entry', 'lon, lat, sum_mean')
 
@@ -123,14 +121,14 @@ def read_loss_map_entries(loss_map_xml):
 
     with open(loss_map_xml) as loss_file:
         for node in etree.iterparse(loss_file):
-            if node[elem].tag == LM_NODE:
+            if node[elem].tag == NODE:
                 lon, lat = node[elem].find('.//%s' % POS_NODE).text.split()
 
                 loss_nodes = node[elem].findall('.//%s' % LOSS_NODE_ELEM)
 
                 sum_mean = 0
                 for loss_node in loss_nodes:
-                    sum_mean += float(loss_node.find('.//%s' % MEAN_NODE).text)
+                    sum_mean += float(loss_node.get('mean'))
 
                 entries.append(ENTRY(lon, lat, sum_mean))
                 node[elem].clear()
