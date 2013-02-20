@@ -63,7 +63,11 @@ def create_map(output_dir, compute_map_output, res, min_val, max_val):
     # Create cpt
     cpt_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'cpt'))
     cptfile = os.path.join(cpt_path, "YlOrRd_09.cpt")
-    cptf = os.path.join(cpt_path, "Blues_08.cpt")
+    cptuserdir = os.path.expanduser('~/map_creator/cpt');
+    cptf = os.path.join(cptuserdir, "Blues_08.cpt")
+
+    if not os.path.exists(cptuserdir):
+        os.makedirs(cptuserdir)
 
     min_val = "%.2e" % int(math.log10(min_val))
     max_val = "%.2e" % int(math.log10(max_val))
@@ -87,4 +91,8 @@ def create_map(output_dir, compute_map_output, res, min_val, max_val):
     cmd = "pscoast -R" + ext + " " + \
         " -JM -W -Df -Na -V -B0.25/0.25/25 -O -Slightblue >> %s" % (
         plot_map_file_name)
+    os.system(cmd)
+
+    pdf_out_file = os.path.join(output_dir, 'map.pdf')
+    cmd = "ps2pdf %s %s" % (plot_map_file_name, pdf_out_file)
     os.system(cmd)

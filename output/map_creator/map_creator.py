@@ -34,7 +34,7 @@ from plotmap import create_map
 
 MSG_ERROR_NO_OUTPUT_FILE = 'Error: unspecified output file\n'
 MSG_ERROR_NONEXISTENT_FILE = 'Error: nonexistent input file\n'
-OUTPUT_DIR = 'computed_output'
+OUTPUT_DIR = os.path.expanduser('~/map_creator')
 OUTPUT_DAT = 'dat'
 
 NRML_NS = '{http://openquake.org/xmlns/nrml/0.4}'
